@@ -32,19 +32,19 @@ def scrape_table(doc, comment_url)
     record = {
       'info_url' => info_url,
       'comment_url' => comment_url,
-      'council_reference' => clean_whitespace(h[1]),
+      'council_reference' => clean_whitespace(h[1].sub("<strong>", "").sub("</strong>", "")),
       'date_received' => date_received,
       # TODO: Some DAs have multiple addresses, we're just getting the first :(
       'address' => clean_whitespace(info_page.at('#b_ctl00_ctMain1_info_prop').at('a').inner_text.strip),
-      'description' => CGI::unescapeHTML(info_page.at('#b_ctl00_ctMain1_info_app').inner_html.split('<br>')[0].strip),
+      'description' => CGI::unescapeHTML(info_page.at('#b_ctl00_ctMain1_info_app').inner_html.split('<br>')[0].sub("Development Application - ", "").strip),
       'date_scraped' => Date.today.to_s
     }
-    # puts record.to_yaml
-    if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
-      ScraperWiki.save_sqlite(['council_reference'], record)
-    else
-      puts "Skipping already saved record " + record['council_reference']
-    end
+    puts record.to_yaml
+    # if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
+      # ScraperWiki.save_sqlite(['council_reference'], record)
+    # else
+      # puts "Skipping already saved record " + record['council_reference']
+    # end
   end
 end
 
