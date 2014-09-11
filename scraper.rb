@@ -39,12 +39,12 @@ def scrape_table(doc, comment_url)
       'description' => CGI::unescapeHTML(info_page.at('#b_ctl00_ctMain1_info_app').inner_html.split('<br>')[0].sub("Development Application - ", "").strip),
       'date_scraped' => Date.today.to_s
     }
-    puts record.to_yaml
-    # if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
-      # ScraperWiki.save_sqlite(['council_reference'], record)
-    # else
-      # puts "Skipping already saved record " + record['council_reference']
-    # end
+    # puts record.to_yaml
+    if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
+      ScraperWiki.save_sqlite(['council_reference'], record)
+    else
+      puts "Skipping already saved record " + record['council_reference']
+    end
   end
 end
 
