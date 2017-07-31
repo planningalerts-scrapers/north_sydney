@@ -3,7 +3,7 @@ require 'rubygems'
 require 'mechanize'
 
 starting_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&'
-comment_url = 'http://www.northsydney.nsw.gov.au/www/html/custom/2137-das-received.asp'
+comment_url = 'mailto:council@northsydney.nsw.gov.au'
 
 def clean_whitespace(a)
   a.gsub("\r", ' ').gsub("\n", ' ').squeeze(" ").strip
