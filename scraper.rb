@@ -29,13 +29,20 @@ def scrape_table(doc, comment_url)
       raise h[1..3].inspect
     end
 
+    begin
+      address = clean_whitespace(info_page.at('#b_ctl00_ctMain1_info_prop').at('a').inner_text.strip)
+    rescue
+      puts 'error with parsing address'
+      next
+    end
+
     record = {
       'info_url' => info_url,
       'comment_url' => comment_url,
       'council_reference' => clean_whitespace(h[1].sub("<strong>", "").sub("</strong>", "")),
       'date_received' => date_received,
       # TODO: Some DAs have multiple addresses, we're just getting the first :(
-      'address' => clean_whitespace(info_page.at('#b_ctl00_ctMain1_info_prop').at('a').inner_text.strip),
+      'address' => address,
       'description' => CGI::unescapeHTML(info_page.at('#b_ctl00_ctMain1_info_app').inner_html.split('<br>')[0].sub("Development Application - ", "").strip),
       'date_scraped' => Date.today.to_s
     }
