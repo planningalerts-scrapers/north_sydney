@@ -2,7 +2,18 @@ require 'scraperwiki'
 require 'rubygems'
 require 'mechanize'
 
-starting_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&'
+case ENV['MORPH_PERIOD']
+  when 'lastmonth'
+  	period = "lastmonth"
+  when 'thismonth'
+  	period = "thismonth"
+  else
+    period = "thisweek"
+    ENV['MORPH_PERIOD'] = 'thisweek'
+end
+puts "Getting data in `" + ENV['MORPH_PERIOD'] + "`, changable via MORPH_PERIOD environment"
+
+starting_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=' + period + '&k=LodgementDate&'
 comment_url = 'mailto:council@northsydney.nsw.gov.au'
 
 def clean_whitespace(a)
