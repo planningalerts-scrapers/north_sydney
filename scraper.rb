@@ -24,7 +24,7 @@ def scrape_table(doc, comment_url)
     info_page = @agent.get(info_url)
 
     begin
-      date_received = Date.strptime(clean_whitespace(h[2]), '%d/%m/%Y').to_s 
+      date_received = Date.strptime(clean_whitespace(h[2]), '%d/%m/%Y').to_s
     rescue
       raise h[1..3].inspect
     end
@@ -62,7 +62,7 @@ def scrape_and_follow_next_link(doc, comment_url)
   puts "No further pages" if nextButton.nil?
   unless nextButton.nil? || nextButton['onclick'] =~ /return false/
     form = doc.forms.first
-    
+
     # The joy of dealing with ASP.NET
     form['__EVENTTARGET'] = nextButton['name']
     form['__EVENTARGUMENT'] = ''
