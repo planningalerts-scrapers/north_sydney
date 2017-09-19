@@ -2,8 +2,19 @@ require 'scraperwiki'
 require 'rubygems'
 require 'mechanize'
 
-starting_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=thismonth&k=LodgementDate&'
-comment_url = 'http://www.northsydney.nsw.gov.au/www/html/custom/2137-das-received.asp'
+case ENV['MORPH_PERIOD']
+  when 'lastmonth'
+  	period = "lastmonth"
+  when 'thismonth'
+  	period = "thismonth"
+  else
+    period = "thisweek"
+    ENV['MORPH_PERIOD'] = 'thisweek'
+end
+puts "Getting data in `" + ENV['MORPH_PERIOD'] + "`, changable via MORPH_PERIOD environment"
+
+starting_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=' + period + '&k=LodgementDate&'
+comment_url = 'mailto:council@northsydney.nsw.gov.au'
 
 def clean_whitespace(a)
   a.gsub("\r", ' ').gsub("\n", ' ').squeeze(" ").strip
@@ -24,9 +35,16 @@ def scrape_table(doc, comment_url)
     info_page = @agent.get(info_url)
 
     begin
-      date_received = Date.strptime(clean_whitespace(h[2]), '%d/%m/%Y').to_s 
+      date_received = Date.strptime(clean_whitespace(h[2]), '%d/%m/%Y').to_s
     rescue
       raise h[1..3].inspect
+    end
+
+    begin
+      address = clean_whitespace(info_page.at('#b_ctl00_ctMain1_info_prop').at('a').inner_text.strip)
+    rescue
+      puts 'error with parsing address'
+      next
     end
 
     record = {
@@ -35,12 +53,13 @@ def scrape_table(doc, comment_url)
       'council_reference' => clean_whitespace(h[1].sub("<strong>", "").sub("</strong>", "")),
       'date_received' => date_received,
       # TODO: Some DAs have multiple addresses, we're just getting the first :(
-      'address' => clean_whitespace(info_page.at('#b_ctl00_ctMain1_info_prop').at('a').inner_text.strip),
+      'address' => address,
       'description' => CGI::unescapeHTML(info_page.at('#b_ctl00_ctMain1_info_app').inner_html.split('<br>')[0].sub("Development Application - ", "").strip),
       'date_scraped' => Date.today.to_s
     }
     # puts record.to_yaml
     if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true)
+      puts "Saving record " + record['council_reference'] + " - " + record['address']
       ScraperWiki.save_sqlite(['council_reference'], record)
     else
       puts "Skipping already saved record " + record['council_reference']
@@ -54,7 +73,7 @@ def scrape_and_follow_next_link(doc, comment_url)
   puts "No further pages" if nextButton.nil?
   unless nextButton.nil? || nextButton['onclick'] =~ /return false/
     form = doc.forms.first
-    
+
     # The joy of dealing with ASP.NET
     form['__EVENTTARGET'] = nextButton['name']
     form['__EVENTARGUMENT'] = ''
