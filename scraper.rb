@@ -25,6 +25,11 @@ agent = Mechanize.new
 # Jump through bollocks agree screen
 page = agent.get(starting_url)
 puts "Agreeing"
+# Workaround for weird content-encoding "gzip,gzip".
+# See https://stackoverflow.com/questions/35444572/unsupported-content-encoding-gzip-gzip-when-submitting-form-with-mechanize
+agent.content_encoding_hooks << lambda { |httpagent, uri, response, body_io|
+  response['Content-Encoding'] = ''
+}
 page = page.forms.first.submit(page.forms.first.button_with(:value => "I Agree"))
 page = agent.get(starting_url + "&o=xml")
 
