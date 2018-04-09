@@ -12,7 +12,7 @@ case ENV['MORPH_PERIOD']
 end
 puts "Getting data in `" + ENV['MORPH_PERIOD'] + "`, changable via MORPH_PERIOD environment"
 
-base_url = 'http://masterview.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx'
+base_url = 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx'
 starting_url =  base_url + '?d=' + period + '&k=LodgementDate&'
 comment_url = 'mailto:council@northsydney.nsw.gov.au'
 
