@@ -9,8 +9,7 @@ case ENV['MORPH_PERIOD']
     period = "thisweek"
   else
     period = "last14days"
-    ENV['MORPH_PERIOD'] = 'last14days'
 end
-puts "Getting data in `" + ENV['MORPH_PERIOD'] + "`, changable via MORPH_PERIOD environment"
+puts "Getting data in `" + period + "`, changable via MORPH_PERIOD environment"
 
 scrape_icon_rest_xml("https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx", "d=" + period + "&k=LodgementDate&o=xml")
