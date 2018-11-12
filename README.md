@@ -2,10 +2,7 @@
 
 * Server - Microsoft
 * System - XC.Track
-* Cookie tracking - Yes
-* Pagination - Yes
-* Detail Page - Yes
-* Clearly defined data within a row - Sort of
+* XML - Yes
 
 
 Setup MORPH_PERIOD for data recovery, available options are
