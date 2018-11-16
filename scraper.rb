@@ -9,6 +9,7 @@ case ENV['MORPH_PERIOD']
     period = "thisweek"
   else
     period = "last14days"
+
 end
 puts "Getting data in `" + period + "`, changable via MORPH_PERIOD environment"
 
