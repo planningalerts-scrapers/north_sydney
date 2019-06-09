@@ -1,30 +1,4 @@
 ---
-- council_reference: DA 135/19
-  description: 'Remove existing handrail and replace glazed enclosure to ceiling height
-    with aluminium facade. '
-  date_received: '2019-05-24'
-  address: 13 / 93 Ridge Street, NORTH SYDNEY NSW 2060
-  date_scraped: '2019-05-15'
-  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000135.001 '
-- council_reference: DA 136/19
-  description: 'Installation of a vergola to existing terrace of Unit 313. '
-  date_received: '2019-05-24'
-  address: 100 Bay Road, WAVERTON NSW 2060
-  date_scraped: '2019-05-15'
-  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000136.001 '
-- council_reference: DA 137/19
-  description: 'Installation of a vergola over existing ground floor deck. '
-  date_received: '2019-05-24'
-  address: 104 Hayberry Street, CROWS NEST NSW 2065
-  date_scraped: '2019-05-15'
-  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000137.001 '
-- council_reference: DA 138/19
-  description: 'Alterations and additions to existing dwelling including a new carport
-    within front setback. '
-  date_received: '2019-05-24'
-  address: 19 Montague Road, CREMORNE NSW 2090
-  date_scraped: '2019-05-15'
-  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000138.001 '
 - council_reference: DA 139/19
   description: 'Strata Subdivision & new hydrant location. Strata Subdivision & new
     hydrant location. '
@@ -151,12 +125,6 @@
   address: 8 Shellcove Road, KURRABA POINT NSW 2089
   date_scraped: '2019-05-15'
   info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000155.001 '
-- council_reference: DA 156/19
-  description: 'Other '
-  date_received: '2019-06-06'
-  address: 72 Murdoch Street, CREMORNE NSW 2090
-  date_scraped: '2019-05-15'
-  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000156.001 '
 - council_reference: DA 157/19
   description: 'Install a window into bedroom 2 on the east facing wall. '
   date_received: '2019-06-06'
@@ -177,6 +145,24 @@
   address: 69 Bank Street, NORTH SYDNEY NSW 2060
   date_scraped: '2019-05-15'
   info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000159.001 '
+- council_reference: DA 160/19
+  description: 'Alternations and additions internal changes plus new rear deck '
+  date_received: '2019-06-07'
+  address: 136 Blues Point Road, MCMAHONS POINT NSW 2060
+  date_scraped: '2019-05-15'
+  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000160.001 '
+- council_reference: DA 161/19
+  description: 'Alternations + Additions including upper floor plus detatched garage '
+  date_received: '2019-06-07'
+  address: 62 Hayberry Street, CROWS NEST NSW 2065
+  date_scraped: '2019-05-15'
+  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000161.001 '
+- council_reference: DA 162/19
+  description: 'erection of a shade structure over part of Level 18terrace '
+  date_received: '2019-06-07'
+  address: 100 Pacific Highway, NORTH SYDNEY NSW 2060
+  date_scraped: '2019-05-15'
+  info_url: 'https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?id=010.2019.00000162.001 '
 - council_reference: DA 173/18/3
   description: 'Amendment to condition C14. '
   date_received: '2019-06-04'

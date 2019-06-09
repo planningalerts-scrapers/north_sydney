@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.5 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
@@ -33,336 +33,16 @@ http_interactions:
       Content-Type:
       - application/xml; charset=utf-8
       Set-Cookie:
-      - ASP.NET_SessionId=oaeifuync1dh1z5ouiso24h3; path=/; HttpOnly
+      - ASP.NET_SessionId=db1poc1iuclspbpnigfyiyqf; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Fri, 07 Jun 2019 01:55:01 GMT
+      - Sun, 09 Jun 2019 16:32:02 GMT
       Content-Length:
-      - '247263'
+      - '230404'
     body:
       encoding: UTF-8
-      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000135.001
-        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
-        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
-        - Alts &amp; Adds                  </Category>\r\n    <ReferenceNumber>DA
-        135/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
-        \   <ReferenceNumberNumber>135</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
-        \   <ApplicationDetails>Remove existing handrail and replace glazed enclosure
-        to ceiling height with aluminium facade. </ApplicationDetails>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
-        \   <EstimatedCost>50000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
-        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
-        \   <OfficerPh />\r\n    <Officer>Greg Sherlock</Officer>\r\n    <Title>Planning
-        &amp; Development Advisor                    </Title>\r\n    <Days>14</Days>\r\n
-        \   <fmt_acc>010.2019.00000135.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
-        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>135</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
-        \   <ApplicationIdS>010.2019.00000135.001</ApplicationIdS>\r\n    <Address>\r\n
-        \     <PropertyId>38038</PropertyId>\r\n      <ParcelId>38038</ParcelId>\r\n
-        \     <ApplicationId>010.2019.00000135.001  </ApplicationId>\r\n      <AssessmentId>315138</AssessmentId>\r\n
-        \     <Status>R</Status>\r\n      <SiteName>Northwind</SiteName>\r\n      <UnitNumber>13</UnitNumber>\r\n
-        \     <StreetNumber1>93</StreetNumber1>\r\n      <str_nme>Ridge                                   </str_nme>\r\n
-        \     <StreetType>St  </StreetType>\r\n      <LocalityName>NORTH SYDNEY</LocalityName>\r\n
-        \     <Postcode>2060      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
-        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>NORTH SYDNEY                       </Suburb>\r\n
-        \     <Ward>Stanton                                 </Ward>\r\n      <LotNumber>13
-        \                                     </LotNumber>\r\n      <PartLotNumber
-        xml:space=\"preserve\">                                        </PartLotNumber>\r\n
-        \     <SectionNumber xml:space=\"preserve\">                                        </SectionNumber>\r\n
-        \     <PlanNumber>46174                                   </PlanNumber>\r\n
-        \     <FullLegalDescription>LOT: 13 SP: 46174</FullLegalDescription>\r\n      <Area>177.0000</Area>\r\n
-        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
-        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Ridge Street</StreetName>\r\n
-        \     <Line1>13 / 93 Ridge Street</Line1>\r\n      <Line2>NORTH SYDNEY NSW
-        2060</Line2>\r\n      <ApplicationIdS>010.2019.00000135.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Address>\r\n      <PropertyId>52001</PropertyId>\r\n
-        \     <ParcelId>52001</ParcelId>\r\n      <ApplicationId>010.2019.00000135.001
-        \ </ApplicationId>\r\n      <AssessmentId>314990</AssessmentId>\r\n      <Status>R</Status>\r\n
-        \     <SiteName>Northwind</SiteName>\r\n      <StreetNumber1>93</StreetNumber1>\r\n
-        \     <StreetSuffix xml:space=\"preserve\">     </StreetSuffix>\r\n      <str_nme>Ridge
-        \                                  </str_nme>\r\n      <StreetType>St  </StreetType>\r\n
-        \     <LocalityName>NORTH SYDNEY</LocalityName>\r\n      <Postcode>2060      </Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
-        \     <Suburb>NORTH SYDNEY                       </Suburb>\r\n      <Ward>Stanton
-        \                                </Ward>\r\n      <LotNumber>0                                       </LotNumber>\r\n
-        \     <PlanNumber>46174                                   </PlanNumber>\r\n
-        \     <FullLegalDescription>LOT: 0 SP: 46174</FullLegalDescription>\r\n      <Area>2510.0000</Area>\r\n
-        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
-        \     <Front>25.33          </Front>\r\n      <Back>56.74          </Back>\r\n
-        \     <Side1>73.34          </Side1>\r\n      <Side2>76.92          </Side2>\r\n
-        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Ridge Street</StreetName>\r\n
-        \     <Line1>93  Ridge Street</Line1>\r\n      <Line2>NORTH SYDNEY NSW 2060</Line2>\r\n
-        \     <ApplicationIdS>010.2019.00000135.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>814088</PersonId>\r\n      <ApplicationId>010.2019.00000135.001
-        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Holt                                              </FamilyName>\r\n
-        \     <GivenName>Pifo </GivenName>\r\n      <Initial>P    </Initial>\r\n      <Title>U</Title>\r\n
-        \     <FullName>Pifo Holt</FullName>\r\n      <Line1>U 13  93 Ridge Street
-        \                  </Line1>\r\n      <Line2>NORTH SYDNEY  NSW  2060                 </Line2>\r\n
-        \     <TelephoneNumber>8033 7281 </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000135.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000135.001
-        </ApplicationId>\r\n      <EventCode>HDRP</EventCode>\r\n      <Description>DRP
-        On Hold - Req Infomation  </Description>\r\n      <Officer> Greg Sherlock</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:06:00+10:00</DateOpen>\r\n      <DateDue>2019-06-06T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000135.001</ApplicationIdS>\r\n
-        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
-        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Mixed
-        Development                       </Category>\r\n    <ReferenceNumber>DA 136/19</ReferenceNumber>\r\n
-        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>136</ReferenceNumberNumber>\r\n
-        \   <Amendment>1</Amendment>\r\n    <ApplicationDetails>Installation of a
-        vergola to existing terrace of Unit 313. </ApplicationDetails>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
-        \   <EstimatedCost>28260</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
-        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
-        \   <OfficerPh />\r\n    <Officer>Hugh Shouldice</Officer>\r\n    <Title>Assessment
-        Officer                                </Title>\r\n    <Days>14</Days>\r\n
-        \   <fmt_acc>010.2019.00000136.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
-        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>136</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
-        \   <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n    <Address>\r\n
-        \     <PropertyId>51718</PropertyId>\r\n      <ParcelId>51718</ParcelId>\r\n
-        \     <ApplicationId>010.2019.00000136.001  </ApplicationId>\r\n      <AssessmentId>278419</AssessmentId>\r\n
-        \     <Status>R</Status>\r\n      <StreetNumber1>100</StreetNumber1>\r\n      <StreetSuffix
-        xml:space=\"preserve\">     </StreetSuffix>\r\n      <str_nme>Bay                                     </str_nme>\r\n
-        \     <StreetType>Rd  </StreetType>\r\n      <LocalityName>WAVERTON</LocalityName>\r\n
-        \     <Postcode>2060      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
-        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>WAVERTON                           </Suburb>\r\n
-        \     <Ward>Waverton                                </Ward>\r\n      <LotNumber>0
-        \                                      </LotNumber>\r\n      <PlanNumber>34477
-        \                                  </PlanNumber>\r\n      <FullLegalDescription>LOT:
-        0 SP: 34477</FullLegalDescription>\r\n      <Area>1381.0000</Area>\r\n      <AreaUnits>SQUARE
-        METRES                           </AreaUnits>\r\n      <PropertyStatus>R</PropertyStatus>\r\n
-        \     <StreetName>Bay Road</StreetName>\r\n      <Line1>100  Bay Road</Line1>\r\n
-        \     <Line2>WAVERTON NSW 2060</Line2>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Address>\r\n      <PropertyId>64432</PropertyId>\r\n
-        \     <ParcelId>64432</ParcelId>\r\n      <ApplicationId>010.2019.00000136.001
-        \ </ApplicationId>\r\n      <AssessmentId>442924</AssessmentId>\r\n      <Status>R</Status>\r\n
-        \     <UnitNumber>313</UnitNumber>\r\n      <StreetNumber1>100</StreetNumber1>\r\n
-        \     <str_nme>Bay                                     </str_nme>\r\n      <StreetType>Rd
-        \ </StreetType>\r\n      <LocalityName>WAVERTON</LocalityName>\r\n      <Postcode>2060
-        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
-        \     <Suburb>WAVERTON                           </Suburb>\r\n      <Ward>Waverton
-        \                               </Ward>\r\n      <LotNumber>37                                      </LotNumber>\r\n
-        \     <PartLotNumber xml:space=\"preserve\">                                        </PartLotNumber>\r\n
-        \     <PlanNumber>88732                                   </PlanNumber>\r\n
-        \     <FullLegalDescription>LOT: 37 SP: 88732</FullLegalDescription>\r\n      <Area>0.0000</Area>\r\n
-        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
-        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Bay Road</StreetName>\r\n
-        \     <Line1>313 / 100 Bay Road</Line1>\r\n      <Line2>WAVERTON NSW 2060</Line2>\r\n
-        \     <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>788791</PersonId>\r\n      <ApplicationId>010.2019.00000136.001
-        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Performance Building Consultants                  </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName>Performance Building Consultants</FullName>\r\n      <Line1>17
-        Harford Street                       </Line1>\r\n      <Line2>NORTH RYDE  NSW
-        \ 2113                   </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber>9887
-        2772 </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>LODG</EventCode>\r\n      <Description>Lodged
-        with Council           </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
-        \     <DateOpen>2019-05-24T11:04:00+10:00</DateOpen>\r\n      <DateDue>2019-05-24T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-05-24T11:04:00+10:00</DateClosed>\r\n      <Comment
-        xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
-        Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-07T10:40:00+10:00</DateOpen>\r\n      <DateDue>2019-06-20T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-21T10:40:00+10:00</DateClosed>\r\n      <Comment>30/05/19
-        - 110 Letters.                                               </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
-        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:40:00+10:00</DateOpen>\r\n      <DateDue>2019-06-01T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-05-29T10:41:00+10:00</DateClosed>\r\n      <Comment>LD
-        RP DWH GS1 IW\n                                                     </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>ASSD</EventCode>\r\n      <Description>Assessment
-        for DA             </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:07:00+10:00</DateOpen>\r\n      <DateDue>2019-07-27T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>SITE</EventCode>\r\n      <Description>Site
-        Visit / Initial Review   </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:07:00+10:00</DateOpen>\r\n      <DateDue>2019-06-04T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-04T10:35:00+10:00</DateClosed>\r\n      <Comment
-        xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000136.001
-        </ApplicationId>\r\n      <EventCode>RRAI</EventCode>\r\n      <Description>Referral
-        to Railcorp          </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:08:00+10:00</DateOpen>\r\n      <DateDue>2019-06-11T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000136.001</ApplicationIdS>\r\n
-        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
-        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
-        - Alts &amp; Adds                  </Category>\r\n    <ReferenceNumber>DA
-        137/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
-        \   <ReferenceNumberNumber>137</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
-        \   <ApplicationDetails>Installation of a vergola over existing ground floor
-        deck. </ApplicationDetails>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
-        \   <EstimatedCost>59000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
-        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
-        \   <OfficerPh />\r\n    <Officer>Robert Fewster</Officer>\r\n    <Title>Assessment
-        Officer                                </Title>\r\n    <Days>14</Days>\r\n
-        \   <fmt_acc>010.2019.00000137.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
-        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>137</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
-        \   <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n    <Address>\r\n
-        \     <PropertyId>1886</PropertyId>\r\n      <ParcelId>1886</ParcelId>\r\n
-        \     <ApplicationId>010.2019.00000137.001  </ApplicationId>\r\n      <AssessmentId>111073</AssessmentId>\r\n
-        \     <Status>R</Status>\r\n      <StreetNumber1>104</StreetNumber1>\r\n      <str_nme>Hayberry
-        \                               </str_nme>\r\n      <StreetType>St  </StreetType>\r\n
-        \     <LocalityName>CROWS NEST</LocalityName>\r\n      <Postcode>2065      </Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
-        \     <Suburb>CROWS NEST                         </Suburb>\r\n      <Ward>Hayberry
-        \                               </Ward>\r\n      <LotNumber>1                                       </LotNumber>\r\n
-        \     <PartLotNumber xml:space=\"preserve\">                                        </PartLotNumber>\r\n
-        \     <SectionNumber xml:space=\"preserve\">                                        </SectionNumber>\r\n
-        \     <PlanNumber>230039                                  </PlanNumber>\r\n
-        \     <FullLegalDescription>LOT: 1 DP: 230039</FullLegalDescription>\r\n      <Area>0.0000</Area>\r\n
-        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
-        \     <Front>12.19          </Front>\r\n      <Side1>39.62          </Side1>\r\n
-        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Hayberry Street</StreetName>\r\n
-        \     <Line1>104 Hayberry Street</Line1>\r\n      <Line2>CROWS NEST NSW 2065</Line2>\r\n
-        \     <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>788791</PersonId>\r\n      <ApplicationId>010.2019.00000137.001
-        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Performance Building Consultants                  </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName>Performance Building Consultants</FullName>\r\n      <Line1>17
-        Harford Street                       </Line1>\r\n      <Line2>NORTH RYDE  NSW
-        \ 2113                   </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber>9887
-        2772 </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>LODG</EventCode>\r\n      <Description>Lodged
-        with Council           </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
-        \     <DateOpen>2019-05-24T12:27:00+10:00</DateOpen>\r\n      <DateDue>2019-05-24T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-05-24T12:27:00+10:00</DateClosed>\r\n      <Comment
-        xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
-        Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-07T14:36:00+10:00</DateOpen>\r\n      <DateDue>2019-06-20T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-21T14:36:00+10:00</DateClosed>\r\n      <Comment>30/05/19
-        - 5 Letters.                                                 </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
-        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:11:00+10:00</DateOpen>\r\n      <DateDue>2019-06-01T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-05-29T10:11:00+10:00</DateClosed>\r\n      <Comment>LD
-        RP DWH GS1 IW\nSTC Letter.\n                                         </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>RHER</EventCode>\r\n      <Description>Referral
-        to Heritage Officer  </Description>\r\n      <Officer> Surbjit Bhatti</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:10:00+10:00</DateOpen>\r\n      <DateDue>2019-06-11T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>ASSD</EventCode>\r\n      <Description>Assessment
-        for DA             </Description>\r\n      <Officer> Robert Fewster</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:10:00+10:00</DateOpen>\r\n      <DateDue>2019-07-27T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>SITE</EventCode>\r\n      <Description>Site
-        Visit / Initial Review   </Description>\r\n      <Officer> Robert Fewster</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:10:00+10:00</DateOpen>\r\n      <DateDue>2019-06-04T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000137.001
-        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
-        requested from Applicant </Description>\r\n      <Officer> Robert Fewster</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:11:00+10:00</DateOpen>\r\n      <DateDue>2019-06-18T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000137.001</ApplicationIdS>\r\n
-        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
-        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
-        - Alts &amp; Adds                  </Category>\r\n    <ReferenceNumber>DA
-        138/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
-        \   <ReferenceNumberNumber>138</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
-        \   <ApplicationDetails>Alterations and additions to existing dwelling including
-        a new carport within front setback. </ApplicationDetails>\r\n    <LodgementDate>2019-05-24T00:00:00+10:00</LodgementDate>\r\n
-        \   <EstimatedCost>100000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
-        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
-        \   <OfficerPh />\r\n    <Officer>Robyn Pearson</Officer>\r\n    <Title>Team
-        Leader Assessments                           </Title>\r\n    <Days>14</Days>\r\n
-        \   <fmt_acc>010.2019.00000138.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
-        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>138</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
-        \   <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n    <Address>\r\n
-        \     <PropertyId>27342</PropertyId>\r\n      <ParcelId>27342</ParcelId>\r\n
-        \     <ApplicationId>010.2019.00000138.001  </ApplicationId>\r\n      <AssessmentId>164833</AssessmentId>\r\n
-        \     <Status>R</Status>\r\n      <StreetNumber1>19</StreetNumber1>\r\n      <str_nme>Montague
-        \                               </str_nme>\r\n      <StreetType>Rd  </StreetType>\r\n
-        \     <LocalityName>CREMORNE</LocalityName>\r\n      <Postcode>2090      </Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
-        \     <Suburb>CREMORNE                           </Suburb>\r\n      <Ward>Willoughby
-        Bay                          </Ward>\r\n      <LotNumber>B                                       </LotNumber>\r\n
-        \     <PartLotNumber xml:space=\"preserve\">                                        </PartLotNumber>\r\n
-        \     <SectionNumber xml:space=\"preserve\">                                        </SectionNumber>\r\n
-        \     <PlanNumber>380307                                  </PlanNumber>\r\n
-        \     <FullLegalDescription>LOT: B DP: 380307</FullLegalDescription>\r\n      <Area>0.0000</Area>\r\n
-        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
-        \     <Front>7.62           </Front>\r\n      <Side1>45.72          </Side1>\r\n
-        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Montague Road</StreetName>\r\n
-        \     <Line1>19 Montague Road</Line1>\r\n      <Line2>CREMORNE NSW 2090</Line2>\r\n
-        \     <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n    </Address>\r\n
-        \   <Party>\r\n      <PersonId>808034</PersonId>\r\n      <ApplicationId>010.2019.00000138.001
-        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Rowley                                            </FamilyName>\r\n
-        \     <GivenName>Alexander John</GivenName>\r\n      <Initial>A J  </Initial>\r\n
-        \     <Title>U</Title>\r\n      <FullName>Alexander John Rowley</FullName>\r\n
-        \     <Line1>19 Montague Road                        </Line1>\r\n      <Line2>CREMORNE
-        \ NSW  2090                     </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber
-        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Party>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n      <EventCode>LODG</EventCode>\r\n      <Description>Lodged
-        with Council           </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
-        \     <DateOpen>2019-05-24T13:36:00+10:00</DateOpen>\r\n      <DateDue>2019-05-24T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-05-24T13:36:00+10:00</DateClosed>\r\n      <Comment
-        xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n      <EventCode>ASSD</EventCode>\r\n      <Description>Assessment
-        for DA             </Description>\r\n      <Officer> Robyn Pearson</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:40:00+10:00</DateOpen>\r\n      <DateDue>2019-07-27T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n      <EventCode>SITE</EventCode>\r\n      <Description>Site
-        Visit / Initial Review   </Description>\r\n      <Officer> Robyn Pearson</Officer>\r\n
-        \     <DateOpen>2019-05-29T10:41:00+10:00</DateOpen>\r\n      <DateDue>2019-06-04T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
-        requested from Applicant </Description>\r\n      <Officer> Robyn Pearson</Officer>\r\n
-        \     <DateOpen>2019-05-30T14:48:00+10:00</DateOpen>\r\n      <DateDue>2019-06-19T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>Y</StopClock>\r\n      <StopClockReason>Awaiting Further
-        Information            </StopClockReason>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000138.001
-        </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
-        Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-07T14:53:00+10:00</DateOpen>\r\n      <DateDue>2019-06-20T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-21T14:53:00+10:00</DateClosed>\r\n      <Comment>30/05/19
-        - 12 Letters.                                                </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000138.001</ApplicationIdS>\r\n
-        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000139.001
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000139.001
         </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Other
         \                                  </Category>\r\n    <ReferenceNumber>DA
@@ -373,7 +53,7 @@ http_interactions:
         \   <EstimatedCost>0</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Kim Rothe</Officer>\r\n    <Title>Senior
-        Assessment Officer (Planning)              </Title>\r\n    <Days>11</Days>\r\n
+        Assessment Officer (Planning)              </Title>\r\n    <Days>14</Days>\r\n
         \   <fmt_acc>010.2019.00000139.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>139</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000139.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -456,7 +136,7 @@ http_interactions:
         \   <EstimatedCost>12540</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Robyn Pearson</Officer>\r\n    <Title>Team
-        Leader Assessments                           </Title>\r\n    <Days>11</Days>\r\n
+        Leader Assessments                           </Title>\r\n    <Days>14</Days>\r\n
         \   <fmt_acc>010.2019.00000140.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>140</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000140.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -552,7 +232,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Luke Donovan</Officer>\r\n    <Title>Senior Assessment Officer
-        (Planning)              </Title>\r\n    <Days>11</Days>\r\n    <fmt_acc>010.2016.00000019.008
+        (Planning)              </Title>\r\n    <Days>14</Days>\r\n    <fmt_acc>010.2016.00000019.008
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2016</doc_yer>\r\n
         \   <doc_num>19</doc_num>\r\n    <doc_prt>8</doc_prt>\r\n    <ApplicationIdS>010.2016.00000019.008</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>7426</PropertyId>\r\n      <ParcelId>7426</ParcelId>\r\n
@@ -659,7 +339,7 @@ http_interactions:
         \   <EstimatedCost>10000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Hugh Shouldice</Officer>\r\n    <Title>Assessment
-        Officer                                </Title>\r\n    <Days>10</Days>\r\n
+        Officer                                </Title>\r\n    <Days>13</Days>\r\n
         \   <fmt_acc>010.2019.00000141.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>141</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000141.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -734,12 +414,6 @@ http_interactions:
         \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000141.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000141.001
-        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
-        requested from Applicant </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
-        \     <DateOpen>2019-05-29T11:08:00+10:00</DateOpen>\r\n      <DateDue>2019-06-18T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000141.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000141.001
         </ApplicationId>\r\n      <EventCode>RMSC</EventCode>\r\n      <Description>RMS
         Concurrent Referral       </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
         \     <DateOpen>2019-05-29T11:07:00+10:00</DateOpen>\r\n      <DateDue>2019-06-18T00:00:00+10:00</DateDue>\r\n
@@ -751,6 +425,12 @@ http_interactions:
         \     <DateOpen>2019-05-29T11:07:00+10:00</DateOpen>\r\n      <DateDue>2019-06-04T00:00:00+10:00</DateDue>\r\n
         \     <DateClosed>2019-06-03T09:39:00+10:00</DateClosed>\r\n      <Comment
         xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000141.001</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000141.001
+        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
+        requested from Applicant </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
+        \     <DateOpen>2019-05-29T11:08:00+10:00</DateOpen>\r\n      <DateDue>2019-06-18T00:00:00+10:00</DateDue>\r\n
+        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000141.001</ApplicationIdS>\r\n
         \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000142.001
         </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
@@ -764,7 +444,7 @@ http_interactions:
         \   <EstimatedCost>5995000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Luke Donovan</Officer>\r\n    <Title>Senior
-        Assessment Officer (Planning)              </Title>\r\n    <Days>10</Days>\r\n
+        Assessment Officer (Planning)              </Title>\r\n    <Days>13</Days>\r\n
         \   <fmt_acc>010.2019.00000142.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>142</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000142.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -932,7 +612,7 @@ http_interactions:
         \   <EstimatedCost>0</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>George Youhanna</Officer>\r\n    <Title>Executive
-        Assessment Planner                      </Title>\r\n    <Days>10</Days>\r\n
+        Assessment Planner                      </Title>\r\n    <Days>13</Days>\r\n
         \   <fmt_acc>010.2019.00000143.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>143</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000143.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -1006,7 +686,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Hugh Shouldice</Officer>\r\n    <Title>Assessment Officer                                </Title>\r\n
-        \   <Days>10</Days>\r\n    <fmt_acc>010.2016.00000208.003 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>13</Days>\r\n    <fmt_acc>010.2016.00000208.003 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2016</doc_yer>\r\n    <doc_num>208</doc_num>\r\n    <doc_prt>3</doc_prt>\r\n
         \   <ApplicationIdS>010.2016.00000208.003</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>16489</PropertyId>\r\n      <ParcelId>16489</ParcelId>\r\n
@@ -1061,7 +741,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Robin Tse</Officer>\r\n    <Title>Senior Assessment Officer (Planning)
-        \             </Title>\r\n    <Days>9</Days>\r\n    <fmt_acc>010.2018.00000144.002
+        \             </Title>\r\n    <Days>12</Days>\r\n    <fmt_acc>010.2018.00000144.002
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2018</doc_yer>\r\n
         \   <doc_num>144</doc_num>\r\n    <doc_prt>2</doc_prt>\r\n    <ApplicationIdS>010.2018.00000144.002</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>21473</PropertyId>\r\n      <ParcelId>21473</ParcelId>\r\n
@@ -1176,7 +856,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Hugh Shouldice</Officer>\r\n    <Title>Assessment Officer                                </Title>\r\n
-        \   <Days>9</Days>\r\n    <fmt_acc>010.2019.00000144.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>12</Days>\r\n    <fmt_acc>010.2019.00000144.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>144</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>20817</PropertyId>\r\n      <ParcelId>20817</ParcelId>\r\n
@@ -1217,18 +897,18 @@ http_interactions:
         xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
-        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
-        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-04T09:45:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-04T09:45:00+10:00</DateClosed>\r\n      <Comment>DWH
-        RP GS1 IW\nSTC letter.\n\n                                           </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
         </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
         Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
         \     <DateOpen>2019-06-14T15:25:00+10:00</DateOpen>\r\n      <DateDue>2019-06-27T00:00:00+10:00</DateDue>\r\n
         \     <DateClosed>2019-06-28T15:25:00+10:00</DateClosed>\r\n      <Comment>04/06/19
         - 16 Letters.                                                </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
+        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
+        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
+        \     <DateOpen>2019-06-04T09:45:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-04T09:45:00+10:00</DateClosed>\r\n      <Comment>DWH
+        RP GS1 IW\nSTC letter.\n\n                                           </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
         </ApplicationId>\r\n      <EventCode>RBLD</EventCode>\r\n      <Description>Referral
@@ -1243,12 +923,6 @@ http_interactions:
         \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
-        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
-        requested from Applicant </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
-        \     <DateOpen>2019-06-04T09:47:00+10:00</DateOpen>\r\n      <DateDue>2019-06-24T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
         </ApplicationId>\r\n      <EventCode>EX1 </EventCode>\r\n      <Description>Exception
         Cl 4.3              </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
         \     <DateOpen>2019-06-04T10:38:00+10:00</DateOpen>\r\n      <DateDue>2019-09-10T00:00:00+10:00</DateDue>\r\n
@@ -1258,6 +932,12 @@ http_interactions:
         </ApplicationId>\r\n      <EventCode>SITE</EventCode>\r\n      <Description>Site
         Visit / Initial Review   </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
         \     <DateOpen>2019-06-04T09:44:00+10:00</DateOpen>\r\n      <DateDue>2019-06-10T00:00:00+10:00</DateDue>\r\n
+        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
+        </ApplicationId>\r\n      <EventCode>STC </EventCode>\r\n      <Description>Info
+        requested from Applicant </Description>\r\n      <Officer> Hugh Shouldice</Officer>\r\n
+        \     <DateOpen>2019-06-04T09:47:00+10:00</DateOpen>\r\n      <DateDue>2019-06-24T00:00:00+10:00</DateDue>\r\n
         \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000144.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000144.001
@@ -1283,7 +963,7 @@ http_interactions:
         \   <EstimatedCost>4000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Michael Stephens</Officer>\r\n    <Title>Assessment
-        Officer                                </Title>\r\n    <Days>9</Days>\r\n
+        Officer                                </Title>\r\n    <Days>12</Days>\r\n
         \   <fmt_acc>010.2019.00000145.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>145</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000145.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -1320,18 +1000,18 @@ http_interactions:
         xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000145.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000145.001
-        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
-        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-04T10:10:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-04T10:10:00+10:00</DateClosed>\r\n      <Comment>DWH
-        RP GS1 IW\nSTC letter.\n                                            </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000145.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000145.001
         </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
         Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
         \     <DateOpen>2019-06-14T08:14:00+10:00</DateOpen>\r\n      <DateDue>2019-06-27T00:00:00+10:00</DateDue>\r\n
         \     <DateClosed>2019-06-28T08:14:00+10:00</DateClosed>\r\n      <Comment>05/06/19
         - 82 Letters.                                                </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000145.001</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000145.001
+        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
+        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
+        \     <DateOpen>2019-06-04T10:10:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-04T10:10:00+10:00</DateClosed>\r\n      <Comment>DWH
+        RP GS1 IW\nSTC letter.\n                                            </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000145.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000145.001
         </ApplicationId>\r\n      <EventCode>RTRA</EventCode>\r\n      <Description>Referral
@@ -1368,7 +1048,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Michael Doyle</Officer>\r\n    <Title>Assessment Officer (Planning)
-        \                    </Title>\r\n    <Days>9</Days>\r\n    <fmt_acc>010.2019.00000146.001
+        \                    </Title>\r\n    <Days>12</Days>\r\n    <fmt_acc>010.2019.00000146.001
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n
         \   <doc_num>146</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n    <ApplicationIdS>010.2019.00000146.001</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>344</PropertyId>\r\n      <ParcelId>344</ParcelId>\r\n
@@ -1408,18 +1088,18 @@ http_interactions:
         xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000146.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000146.001
-        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
-        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
-        \     <DateOpen>2019-06-04T10:21:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
-        \     <DateClosed>2019-06-04T10:21:00+10:00</DateClosed>\r\n      <Comment>DWH
-        RP GS1 IW\n                                                        </Comment>\r\n
-        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000146.001</ApplicationIdS>\r\n
-        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000146.001
         </ApplicationId>\r\n      <EventCode>ADV </EventCode>\r\n      <Description>Advertising
         Notification      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
         \     <DateOpen>2019-06-14T08:51:00+10:00</DateOpen>\r\n      <DateDue>2019-06-27T00:00:00+10:00</DateDue>\r\n
         \     <DateClosed>2019-06-28T08:51:00+10:00</DateClosed>\r\n      <Comment>05/06/19
         - 20 Letters.                                                </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000146.001</ApplicationIdS>\r\n
+        \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000146.001
+        </ApplicationId>\r\n      <EventCode>DRP </EventCode>\r\n      <Description>Development
+        Review Panel      </Description>\r\n      <Officer> Irena Widla</Officer>\r\n
+        \     <DateOpen>2019-06-04T10:21:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-04T10:21:00+10:00</DateClosed>\r\n      <Comment>DWH
+        RP GS1 IW\n                                                        </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000146.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000146.001
         </ApplicationId>\r\n      <EventCode>RHER</EventCode>\r\n      <Description>Referral
@@ -1464,7 +1144,7 @@ http_interactions:
         \   <EstimatedCost>486000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Kim Rothe</Officer>\r\n    <Title>Senior
-        Assessment Officer (Planning)              </Title>\r\n    <Days>8</Days>\r\n
+        Assessment Officer (Planning)              </Title>\r\n    <Days>11</Days>\r\n
         \   <fmt_acc>010.2019.00000147.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>147</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000147.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -1557,7 +1237,7 @@ http_interactions:
         \   <EstimatedCost>24900</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Robyn Pearson</Officer>\r\n    <Title>Team
-        Leader Assessments                           </Title>\r\n    <Days>8</Days>\r\n
+        Leader Assessments                           </Title>\r\n    <Days>11</Days>\r\n
         \   <fmt_acc>010.2019.00000148.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>148</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000148.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -1741,7 +1421,7 @@ http_interactions:
         \   <EstimatedCost>1000000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Greg Sherlock</Officer>\r\n    <Title>Planning
-        &amp; Development Advisor                    </Title>\r\n    <Days>8</Days>\r\n
+        &amp; Development Advisor                    </Title>\r\n    <Days>11</Days>\r\n
         \   <fmt_acc>010.2017.00000399.002 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2017</doc_yer>\r\n    <doc_num>399</doc_num>\r\n    <doc_prt>2</doc_prt>\r\n
         \   <ApplicationIdS>010.2017.00000399.002</ApplicationIdS>\r\n    <Address>\r\n
@@ -1803,7 +1483,7 @@ http_interactions:
         \   <EstimatedCost>1</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Greg Sherlock</Officer>\r\n    <Title>Planning
-        &amp; Development Advisor                    </Title>\r\n    <Days>8</Days>\r\n
+        &amp; Development Advisor                    </Title>\r\n    <Days>11</Days>\r\n
         \   <fmt_acc>010.2017.00000400.002 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2017</doc_yer>\r\n    <doc_num>400</doc_num>\r\n    <doc_prt>2</doc_prt>\r\n
         \   <ApplicationIdS>010.2017.00000400.002</ApplicationIdS>\r\n    <Address>\r\n
@@ -1864,7 +1544,7 @@ http_interactions:
         \   <EstimatedCost>80000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Lara Huckstepp</Officer>\r\n    <Title>Executive
-        Assessment Planner                      </Title>\r\n    <Days>7</Days>\r\n
+        Assessment Planner                      </Title>\r\n    <Days>10</Days>\r\n
         \   <fmt_acc>010.2019.00000149.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>149</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000149.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -2015,7 +1695,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Robin Tse</Officer>\r\n    <Title>Senior Assessment Officer (Planning)
-        \             </Title>\r\n    <Days>7</Days>\r\n    <fmt_acc>010.2019.00000150.001
+        \             </Title>\r\n    <Days>10</Days>\r\n    <fmt_acc>010.2019.00000150.001
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n
         \   <doc_num>150</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n    <ApplicationIdS>010.2019.00000150.001</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>44480</PropertyId>\r\n      <ParcelId>44480</ParcelId>\r\n
@@ -2081,7 +1761,8 @@ http_interactions:
         </ApplicationId>\r\n      <EventCode>RHER</EventCode>\r\n      <Description>Referral
         to Heritage Officer  </Description>\r\n      <Officer> Lucinda Christine Varley</Officer>\r\n
         \     <DateOpen>2019-06-04T11:14:00+10:00</DateOpen>\r\n      <DateDue>2019-06-17T00:00:00+10:00</DateDue>\r\n
-        \     <Comment xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <DateClosed>2019-06-07T14:11:00+10:00</DateClosed>\r\n      <Comment
+        xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000150.001</ApplicationIdS>\r\n
         \   </Event>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000150.001
         </ApplicationId>\r\n      <EventCode>ASSD</EventCode>\r\n      <Description>Assessment
@@ -2116,7 +1797,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Greg Sherlock</Officer>\r\n    <Title>Planning &amp; Development
-        Advisor                    </Title>\r\n    <Days>4</Days>\r\n    <fmt_acc>010.2019.00000151.001
+        Advisor                    </Title>\r\n    <Days>7</Days>\r\n    <fmt_acc>010.2019.00000151.001
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n
         \   <doc_num>151</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n    <ApplicationIdS>010.2019.00000151.001</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>17748</PropertyId>\r\n      <ParcelId>17748</ParcelId>\r\n
@@ -2201,7 +1882,7 @@ http_interactions:
         \   <EstimatedCost>35000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh />\r\n    <Officer>Greg Sherlock</Officer>\r\n    <Title>Planning
-        &amp; Development Advisor                    </Title>\r\n    <Days>4</Days>\r\n
+        &amp; Development Advisor                    </Title>\r\n    <Days>7</Days>\r\n
         \   <fmt_acc>010.2019.00000152.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>152</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000152.001</ApplicationIdS>\r\n    <Address>\r\n
@@ -2291,7 +1972,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh />\r\n
         \   <Officer>Alexander Richard</Officer>\r\n    <Title>Student Town Planner
-        - Assessments                </Title>\r\n    <Days>4</Days>\r\n    <fmt_acc>010.2019.00000025.002
+        - Assessments                </Title>\r\n    <Days>7</Days>\r\n    <fmt_acc>010.2019.00000025.002
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n
         \   <doc_num>25</doc_num>\r\n    <doc_prt>2</doc_prt>\r\n    <ApplicationIdS>010.2019.00000025.002</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>33008</PropertyId>\r\n      <ParcelId>33008</ParcelId>\r\n
@@ -2404,7 +2085,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000153.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>6</Days>\r\n    <fmt_acc>010.2019.00000153.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>153</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000153.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>9954</PropertyId>\r\n      <ParcelId>9954</ParcelId>\r\n
@@ -2470,7 +2151,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000154.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>6</Days>\r\n    <fmt_acc>010.2019.00000154.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>154</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000154.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>54968</PropertyId>\r\n      <ParcelId>54968</ParcelId>\r\n
@@ -2517,7 +2198,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000155.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>6</Days>\r\n    <fmt_acc>010.2019.00000155.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>155</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000155.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>31317</PropertyId>\r\n      <ParcelId>31317</ParcelId>\r\n
@@ -2565,7 +2246,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>3</Days>\r\n    <fmt_acc>010.2018.00000173.003 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>6</Days>\r\n    <fmt_acc>010.2018.00000173.003 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2018</doc_yer>\r\n    <doc_num>173</doc_num>\r\n    <doc_prt>3</doc_prt>\r\n
         \   <ApplicationIdS>010.2018.00000173.003</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>41528</PropertyId>\r\n      <ParcelId>41528</ParcelId>\r\n
@@ -2604,47 +2285,7 @@ http_interactions:
         \     <DateClosed>2019-06-04T12:47:00+10:00</DateClosed>\r\n      <Comment
         xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2018.00000173.003</ApplicationIdS>\r\n
-        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000156.001
-        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
-        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Other
-        \                                  </Category>\r\n    <ReferenceNumber>DA
-        156/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
-        \   <ReferenceNumberNumber>156</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
-        \   <ApplicationDetails>Other </ApplicationDetails>\r\n    <LodgementDate>2019-06-06T00:00:00+10:00</LodgementDate>\r\n
-        \   <EstimatedCost>200000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
-        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
-        \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
-        \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>1</Days>\r\n    <fmt_acc>010.2019.00000156.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
-        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>156</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
-        \   <ApplicationIdS>010.2019.00000156.001</ApplicationIdS>\r\n    <Address>\r\n
-        \     <PropertyId>52604</PropertyId>\r\n      <ParcelId>52604</ParcelId>\r\n
-        \     <ApplicationId>010.2019.00000156.001  </ApplicationId>\r\n      <AssessmentId>172513</AssessmentId>\r\n
-        \     <Status>R</Status>\r\n      <SiteName>Company Title 36</SiteName>\r\n
-        \     <StreetNumber1>72</StreetNumber1>\r\n      <str_nme>Murdoch                                 </str_nme>\r\n
-        \     <StreetType>St  </StreetType>\r\n      <LocalityName>CREMORNE</LocalityName>\r\n
-        \     <Postcode>2090      </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
-        \     <StateTerritory>NSW</StateTerritory>\r\n      <Suburb>CREMORNE                           </Suburb>\r\n
-        \     <Ward>Harrison                                </Ward>\r\n      <LotNumber>0
-        \                                      </LotNumber>\r\n      <PlanNumber>36
-        \                                     </PlanNumber>\r\n      <FullLegalDescription>LOT:
-        0 CT: 36</FullLegalDescription>\r\n      <Area>0.0000</Area>\r\n      <AreaUnits>SQUARE
-        METRES                           </AreaUnits>\r\n      <Front>56.34          </Front>\r\n
-        \     <Back>56.9           </Back>\r\n      <Side1>45.75          </Side1>\r\n
-        \     <Side2>0              </Side2>\r\n      <PropertyStatus>R</PropertyStatus>\r\n
-        \     <StreetName>Murdoch Street</StreetName>\r\n      <Line1>72 Murdoch Street</Line1>\r\n
-        \     <Line2>CREMORNE NSW 2090</Line2>\r\n      <ApplicationIdS>010.2019.00000156.001</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <PersonId>14104</PersonId>\r\n      <ApplicationId>010.2019.00000156.001
-        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
-        \     <PartyRole>Applicant                               </PartyRole>\r\n
-        \     <FamilyName>Warraba Investments Pty Ltd                       </FamilyName>\r\n
-        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
-        \     <FullName>Warraba Investments Pty Ltd</FullName>\r\n      <Line1>PO
-        Box 613                              </Line1>\r\n      <Line2>NEUTRAL BAY
-        JUNCTION  NSW  2089         </Line2>\r\n      <Line3 xml:space=\"preserve\">
-        \                                       </Line3>\r\n      <TelephoneNumber
-        xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000156.001</ApplicationIdS>\r\n
-        \   </Party>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000157.001
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000157.001
         </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
         \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>RFB
         4 Storeys and above - Alts &amp; Adds   </Category>\r\n    <ReferenceNumber>DA
@@ -2656,7 +2297,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>1</Days>\r\n    <fmt_acc>010.2019.00000157.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>4</Days>\r\n    <fmt_acc>010.2019.00000157.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>157</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000157.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>51513</PropertyId>\r\n      <ParcelId>51513</ParcelId>\r\n
@@ -2718,7 +2359,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>1</Days>\r\n    <fmt_acc>010.2019.00000158.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>4</Days>\r\n    <fmt_acc>010.2019.00000158.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2019</doc_yer>\r\n    <doc_num>158</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
         \   <ApplicationIdS>010.2019.00000158.001</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>24495</PropertyId>\r\n      <ParcelId>24495</ParcelId>\r\n
@@ -2783,7 +2424,7 @@ http_interactions:
         \   <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n    <DeterminationTypeCode
         xml:space=\"preserve\">    </DeterminationTypeCode>\r\n    <OfficerPh>9936
         8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n    <Title>Responsible
-        Officer for Conversion                </Title>\r\n    <Days>1</Days>\r\n    <fmt_acc>010.2019.00000159.001
+        Officer for Conversion                </Title>\r\n    <Days>4</Days>\r\n    <fmt_acc>010.2019.00000159.001
         </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n    <doc_yer>2019</doc_yer>\r\n
         \   <doc_num>159</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n    <ApplicationIdS>010.2019.00000159.001</ApplicationIdS>\r\n
         \   <Address>\r\n      <PropertyId>17619</PropertyId>\r\n      <ParcelId>17619</ParcelId>\r\n
@@ -2832,7 +2473,7 @@ http_interactions:
         \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
         \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
         \   <Title>Responsible Officer for Conversion                </Title>\r\n
-        \   <Days>1</Days>\r\n    <fmt_acc>010.2016.00000327.004 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <Days>4</Days>\r\n    <fmt_acc>010.2016.00000327.004 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
         \   <doc_yer>2016</doc_yer>\r\n    <doc_num>327</doc_num>\r\n    <doc_prt>4</doc_prt>\r\n
         \   <ApplicationIdS>010.2016.00000327.004</ApplicationIdS>\r\n    <Address>\r\n
         \     <PropertyId>223</PropertyId>\r\n      <ParcelId>223</ParcelId>\r\n      <ApplicationId>010.2016.00000327.004
@@ -2902,6 +2543,169 @@ http_interactions:
         \     <DateClosed>2019-06-06T15:55:00+10:00</DateClosed>\r\n      <Comment
         xml:space=\"preserve\">                                                                      </Comment>\r\n
         \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2016.00000327.004</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000160.001
+        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        - Alts &amp; Adds                  </Category>\r\n    <ReferenceNumber>DA
+        160/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>160</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Alternations and additions internal changes plus new
+        rear deck </ApplicationDetails>\r\n    <LodgementDate>2019-06-07T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>54250</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
+        \   <Title>Responsible Officer for Conversion                </Title>\r\n
+        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000160.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>160</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
+        \   <ApplicationIdS>010.2019.00000160.001</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>19339</PropertyId>\r\n      <ParcelId>19339</ParcelId>\r\n
+        \     <ApplicationId>010.2019.00000160.001  </ApplicationId>\r\n      <AssessmentId>38391</AssessmentId>\r\n
+        \     <Status>R</Status>\r\n      <StreetNumber1>136</StreetNumber1>\r\n      <str_nme>Blues
+        Point                             </str_nme>\r\n      <StreetType>Rd  </StreetType>\r\n
+        \     <LocalityName>MCMAHONS POINT</LocalityName>\r\n      <Postcode>2060
+        \     </Postcode>\r\n      <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>MCMAHONS POINT                     </Suburb>\r\n      <Ward>Union
+        \                                  </Ward>\r\n      <LotNumber>11                                      </LotNumber>\r\n
+        \     <PartLotNumber xml:space=\"preserve\">                                        </PartLotNumber>\r\n
+        \     <SectionNumber xml:space=\"preserve\">                                        </SectionNumber>\r\n
+        \     <PlanNumber>3713                                    </PlanNumber>\r\n
+        \     <FullLegalDescription>LOT: 11 DP: 3713</FullLegalDescription>\r\n      <Area>0.0000</Area>\r\n
+        \     <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <Front>6.1            </Front>\r\n      <Side1>27.43          </Side1>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Blues Point
+        Road</StreetName>\r\n      <Line1>136 Blues Point Road</Line1>\r\n      <Line2>MCMAHONS
+        POINT NSW 2060</Line2>\r\n      <ApplicationIdS>010.2019.00000160.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>637147</PersonId>\r\n      <ApplicationId>010.2019.00000160.001
+        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Peter Princi Architects                           </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Initial>P
+        \   </Initial>\r\n      <Title>CO</Title>\r\n      <FullName>Peter Princi
+        Architects</FullName>\r\n      <Line1>PO Box 615                              </Line1>\r\n
+        \     <Line2>FRENCHS FOREST  NSW  1640               </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber> 9452 5661</TelephoneNumber>\r\n      <EmailAddress>pprinci@bigpond.com
+        \                                                                                                            </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000160.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>010.2019.00000160.001 </ApplicationId>\r\n
+        \     <EventCode>LODG</EventCode>\r\n      <Description>Lodged with Council
+        \          </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
+        \     <DateOpen>2019-06-07T09:10:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-07T09:10:00+10:00</DateClosed>\r\n      <Comment
+        xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000160.001</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000161.001
+        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Dwelling
+        - Alts &amp; Adds                  </Category>\r\n    <ReferenceNumber>DA
+        161/19</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>161</ReferenceNumberNumber>\r\n    <Amendment>1</Amendment>\r\n
+        \   <ApplicationDetails>Alternations + Additions including upper floor plus
+        detatched garage </ApplicationDetails>\r\n    <LodgementDate>2019-06-07T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>400000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
+        \   <Title>Responsible Officer for Conversion                </Title>\r\n
+        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000161.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>161</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
+        \   <ApplicationIdS>010.2019.00000161.001</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>65247</PropertyId>\r\n      <ParcelId>65247</ParcelId>\r\n
+        \     <ApplicationId>010.2019.00000161.001  </ApplicationId>\r\n      <AssessmentId>449994</AssessmentId>\r\n
+        \     <Status>R</Status>\r\n      <StreetNumber1>62</StreetNumber1>\r\n      <str_nme>Hayberry
+        \                               </str_nme>\r\n      <StreetType>St  </StreetType>\r\n
+        \     <LocalityName>CROWS NEST</LocalityName>\r\n      <Postcode>2065      </Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>CROWS NEST                         </Suburb>\r\n      <Ward>Hayberry
+        \                               </Ward>\r\n      <LotNumber>421                                     </LotNumber>\r\n
+        \     <PlanNumber>1217169                                 </PlanNumber>\r\n
+        \     <FullLegalDescription>LOT: 421 DP: 1217169</FullLegalDescription>\r\n
+        \     <Area>242.5000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <Front>6.16           </Front>\r\n      <Back>6.08           </Back>\r\n
+        \     <Side1>39.625         </Side1>\r\n      <Side2>39.625         </Side2>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Hayberry Street</StreetName>\r\n
+        \     <Line1>62 Hayberry Street</Line1>\r\n      <Line2>CROWS NEST NSW 2065</Line2>\r\n
+        \     <ApplicationIdS>010.2019.00000161.001</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Address>\r\n      <PropertyId>65248</PropertyId>\r\n      <ParcelId>65248</ParcelId>\r\n
+        \     <ApplicationId>010.2019.00000161.001  </ApplicationId>\r\n      <AssessmentId>450000</AssessmentId>\r\n
+        \     <Status>R</Status>\r\n      <StreetNumber1>64</StreetNumber1>\r\n      <str_nme>Hayberry
+        \                               </str_nme>\r\n      <StreetType>St  </StreetType>\r\n
+        \     <LocalityName>CROWS NEST</LocalityName>\r\n      <Postcode>2065      </Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>CROWS NEST                         </Suburb>\r\n      <Ward>Hayberry
+        \                               </Ward>\r\n      <LotNumber>422                                     </LotNumber>\r\n
+        \     <PlanNumber>1217169                                 </PlanNumber>\r\n
+        \     <FullLegalDescription>LOT: 422 DP: 1217169</FullLegalDescription>\r\n
+        \     <Area>240.6000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <Front>6.03           </Front>\r\n      <Back>6.11           </Back>\r\n
+        \     <Side1>39.625         </Side1>\r\n      <Side2>39.625         </Side2>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Hayberry Street</StreetName>\r\n
+        \     <Line1>64 Hayberry Street</Line1>\r\n      <Line2>CROWS NEST NSW 2065</Line2>\r\n
+        \     <ApplicationIdS>010.2019.00000161.001</ApplicationIdS>\r\n    </Address>\r\n
+        \   <Party>\r\n      <PersonId>637147</PersonId>\r\n      <ApplicationId>010.2019.00000161.001
+        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>Peter Princi Architects                           </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Initial>P
+        \   </Initial>\r\n      <Title>CO</Title>\r\n      <FullName>Peter Princi
+        Architects</FullName>\r\n      <Line1>PO Box 615                              </Line1>\r\n
+        \     <Line2>FRENCHS FOREST  NSW  1640               </Line2>\r\n      <Line3
+        xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber> 9452 5661</TelephoneNumber>\r\n      <EmailAddress>pprinci@bigpond.com
+        \                                                                                                            </EmailAddress>\r\n
+        \     <ApplicationIdS>010.2019.00000161.001</ApplicationIdS>\r\n    </Party>\r\n
+        \   <Event>\r\n      <ApplicationId>010.2019.00000161.001 </ApplicationId>\r\n
+        \     <EventCode>LODG</EventCode>\r\n      <Description>Lodged with Council
+        \          </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
+        \     <DateOpen>2019-06-07T09:26:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-07T09:26:00+10:00</DateClosed>\r\n      <Comment
+        xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000161.001</ApplicationIdS>\r\n
+        \   </Event>\r\n  </Application>\r\n  <Application>\r\n    <ApplicationId>010.2019.00000162.001
+        </ApplicationId>\r\n    <NatureOfApplication>Development Application</NatureOfApplication>\r\n
+        \   <NatureOfApplicationType>10</NatureOfApplicationType>\r\n    <Category>Office
+        Building                         </Category>\r\n    <ReferenceNumber>DA 162/19</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>162</ReferenceNumberNumber>\r\n
+        \   <Amendment>1</Amendment>\r\n    <ApplicationDetails>erection of a shade
+        structure over part of Level 18terrace </ApplicationDetails>\r\n    <LodgementDate>2019-06-07T00:00:00+10:00</LodgementDate>\r\n
+        \   <EstimatedCost>47000</EstimatedCost>\r\n    <DeterminationTypeCode1>0</DeterminationTypeCode1>\r\n
+        \   <DeterminationTypeCode xml:space=\"preserve\">    </DeterminationTypeCode>\r\n
+        \   <OfficerPh>9936 8100</OfficerPh>\r\n    <Officer> North Sydney Council</Officer>\r\n
+        \   <Title>Responsible Officer for Conversion                </Title>\r\n
+        \   <Days>3</Days>\r\n    <fmt_acc>010.2019.00000162.001 </fmt_acc>\r\n    <doc_typ>10</doc_typ>\r\n
+        \   <doc_yer>2019</doc_yer>\r\n    <doc_num>162</doc_num>\r\n    <doc_prt>1</doc_prt>\r\n
+        \   <ApplicationIdS>010.2019.00000162.001</ApplicationIdS>\r\n    <Address>\r\n
+        \     <PropertyId>61208</PropertyId>\r\n      <ParcelId>61208</ParcelId>\r\n
+        \     <ApplicationId>010.2019.00000162.001  </ApplicationId>\r\n      <AssessmentId>178403</AssessmentId>\r\n
+        \     <Status>R</Status>\r\n      <StreetNumber1>100</StreetNumber1>\r\n      <str_nme>Pacific
+        \                                </str_nme>\r\n      <StreetType>Hwy </StreetType>\r\n
+        \     <LocalityName>NORTH SYDNEY</LocalityName>\r\n      <Postcode>2060      </Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>NSW</StateTerritory>\r\n
+        \     <Suburb>NORTH SYDNEY                       </Suburb>\r\n      <Ward>Edward
+        \                                 </Ward>\r\n      <LotNumber>1                                       </LotNumber>\r\n
+        \     <PlanNumber>1119395                                 </PlanNumber>\r\n
+        \     <FullLegalDescription>LOT: 1 DP: 1119395</FullLegalDescription>\r\n
+        \     <Area>1838.0000</Area>\r\n      <AreaUnits>SQUARE METRES                           </AreaUnits>\r\n
+        \     <Front>45.095         </Front>\r\n      <Back>18.5           </Back>\r\n
+        \     <Side1>54.72          </Side1>\r\n      <Side2>65.65          </Side2>\r\n
+        \     <PropertyStatus>R</PropertyStatus>\r\n      <StreetName>Pacific Highway</StreetName>\r\n
+        \     <Line1>100 Pacific Highway</Line1>\r\n      <Line2>NORTH SYDNEY NSW
+        2060</Line2>\r\n      <ApplicationIdS>010.2019.00000162.001</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <PersonId>866523</PersonId>\r\n      <ApplicationId>010.2019.00000162.001
+        \                            </ApplicationId>\r\n      <lnk_typ>461</lnk_typ>\r\n
+        \     <PartyRole>Applicant                               </PartyRole>\r\n
+        \     <FamilyName>D M Plannning                                     </FamilyName>\r\n
+        \     <GivenName xml:space=\"preserve\"> </GivenName>\r\n      <Title>CO</Title>\r\n
+        \     <FullName>D M Plannning</FullName>\r\n      <Line1>SE 1  9 Narabang
+        Way                    </Line1>\r\n      <Line2>BELROSE  NSW  2085                      </Line2>\r\n
+        \     <Line3 xml:space=\"preserve\">                                        </Line3>\r\n
+        \     <TelephoneNumber xml:space=\"preserve\"> </TelephoneNumber>\r\n      <ApplicationIdS>010.2019.00000162.001</ApplicationIdS>\r\n
+        \   </Party>\r\n    <Event>\r\n      <ApplicationId>010.2019.00000162.001
+        </ApplicationId>\r\n      <EventCode>LODG</EventCode>\r\n      <Description>Lodged
+        with Council           </Description>\r\n      <Officer> North Sydney Council</Officer>\r\n
+        \     <DateOpen>2019-06-07T10:47:00+10:00</DateOpen>\r\n      <DateDue>2019-06-07T00:00:00+10:00</DateDue>\r\n
+        \     <DateClosed>2019-06-07T10:47:00+10:00</DateClosed>\r\n      <Comment
+        xml:space=\"preserve\">                                                                      </Comment>\r\n
+        \     <StopClock>N</StopClock>\r\n      <ApplicationIdS>010.2019.00000162.001</ApplicationIdS>\r\n
         \   </Event>\r\n  </Application>\r\n</NewDataSet>"
     http_version: 
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
