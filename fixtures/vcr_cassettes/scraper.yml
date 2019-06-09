@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    uri: https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: US-ASCII
       string: ''
@@ -25,6 +25,702 @@ http_interactions:
       - '300'
   response:
     status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Location:
+      - "/Common/Common/terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=5mqiwyu12lvafy2lhv40fvoc; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 16:32:29 GMT
+      Content-Length:
+      - '142'
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apptracking.northsydney.nsw.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=5mqiwyu12lvafy2lhv40fvoc
+      Host:
+      - apptracking.northsydney.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 16:32:29 GMT
+      Content-Length:
+      - '30066'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head
+        id=\"ctl00_Head1\"><meta http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
+        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" media=\"all\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n    <base target=\"_top\"
+        />\r\n\r\n    <!-- Conditional Queries to load the Formatted Lists CSS files
+        -->\r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\r\n    <style type='text/css'></style><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /><meta name=\"robots\"
+        content=\"noindex,nofollow\" /><link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><title>\r\n\tTerms and Conditions\r\n</title></head>\r\n<body>\r\n
+        \   <form method=\"post\" action=\"./terms.aspx\" id=\"aspnetForm\" role=\"form\"
+        autocomplete=\"off\">\r\n<input type=\"hidden\" name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\"
+        value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\"
+        value=\"/wEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWEAICDw8WAh4HVmlzaWJsZWhkZAIDDxYCHgRUZXh0BWM8ZGl2IGlkPSduYXYnIGNsYXNzPSdmbG9hdFJpZ2h0IGFkbWlubmF2Jz48YSBocmVmPScuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Jz5Mb2dpbjwvYT48L2Rpdj5kAgQPDxYCHwBoZGQCBQ8WAh8BBZ4GPGRpdiBjbGFzcz0iaGVhZGVyIj4KPGRpdiBjbGFzcz0ibG9nbyI+CjxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvIj4KPGltZyBhbHQ9IiIgc3JjPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2xvZ28uZ2lmIiAvPjwvYT48L2Rpdj4KPGRpdiBjbGFzcz0idG9wLWxpbmstd3JhcHBlciI+CjxkaXYgY2xhc3M9InJpZ2h0IGJ1dHRvbi13cmFwIj48YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL1JTU19GZWVkcyIgY2xhc3M9InJzcy1idXR0b24iPgo8L2E+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJsZWZ0Ij4KPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9Db3VuY2lsX01lZXRpbmdzL091cl9PcmdhbmlzYXRpb24vQ29udGFjdF9VcyI+Q29udGFjdCBVczwvYT4gfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0NvdW5jaWxfTWVldGluZ3MvQ291bmNpbF9OZXdzL0UtbmV3cyI+CkUtbmV3czwvYT4gfCA8YSBocmVmPSIjIiBpZD0ibGFyZ2VyLXRyaWdnZXIiPkxhcmdlciBUZXh0PC9hPiB8IDxhIGhyZWY9IiMiIGlkPSJzbWFsbGVyLXRyaWdnZXIiPgpTbWFsbGVyIFRleHQ8L2E+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic2VhcmNoLXdyYXBwZXIiPgo8L2Rpdj4KPC9kaXY+ZAIIDxYCHwFlZAIMD2QWAgIBD2QWBgIBDxYCHwEFtB08ZGl2IHN0eWxlPSJwYWRkaW5nOiAzcHg7IGJvcmRlcjogMXB4IHNvbGlkICNkZGRkZGQ7IGJvcmRlci1pbWFnZTogbm9uZTsgd2lkdGg6IDk1JTsgb3ZlcmZsb3c6IHZpc2libGU7Ij4KPHA+PHN0cm9uZz5XZWxjb21lITwvc3Ryb25nPjxiciAvPgpBcHBsaWNhdGlvbiBUcmFja2luZyBhbGxvd3MgeW91IHRvIHRyYWNrIHRoZSBwcm9ncmVzcyBvZiBhIGRldmVsb3BtZW50IGFwcGxpY2F0aW9uIGZyb20gbG9kZ2VtZW50IHRvIGRldGVybWluYXRpb24uCjwvcD4KPHA+PHN0cm9uZz5UaGlzIHNlcnZpY2UgYXBwbGllcyB0byBhbGwgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIHN1Ym1pdHRlZCBzaW5jZSAxc3Qgb2YgQXVndXN0IDIwMDUuPC9zdHJvbmc+PC9wPgo8ZGl2IHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0OyI+PGEgaHJlZj0iaHR0cDovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0J1aWxkaW5nX0RldmVsb3BtZW50L0N1cnJlbnRfREFzL0RBX0NvbnNlbnRzIiBjbGFzcz0iTGlzdExpbmsiIHRhcmdldD0iX2JsYW5rIj4mbmJzcDsmbmJzcDsmbmJzcDsmZ3Q7IFZpZXcgdGhlIEFwcHJvdmVkIERldmVsb3BtZW50IENvbnNlbnRzLjwvYT48L2Rpdj4KPHA+QmVmb3JlIHByb2NlZWRpbmcsIHBsZWFzZSByZWFkIHRoZSBmb2xsb3dpbmcgVGVybXMgYW5kIENvbmRpdGlvbnMgYW5kIHNlbGVjdCBhIGJ1dHRvbiBhdCB0aGUgYm90dG9tIG9mIHRoZSBwYWdlLjwvcD4KPHRhYmxlIHdpZHRoPSI5OCUiIGFsaWduPSJjZW50ZXIiIGJvcmRlcj0iMSI+CiAgICA8dGJvZHk+CiAgICAgICAgPHRyIHZhbGlnbj0idG9wIj4KICAgICAgICAgICAgPHRkIHN0eWxlPSJ3aWR0aDogMTAwJTsiPjxzdHJvbmc+PGVtPjxzcGFuIHN0eWxlPSJjb2xvcjogI2ZmMDAwMDsiPlRlcm1zIGFuZAogICAgICAgICAgICBDb25kaXRpb25zPC9zcGFuPjwvZW0+PC9zdHJvbmc+PC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0ciB2YWxpZ249InRvcCI+CiAgICAgICAgICAgIDx0ZCBzdHlsZT0id2lkdGg6IDEwMCU7Ij5JZiB5b3UgYWNjZXNzIHRoaXMKICAgICAgICAgICAgd2Vic2l0ZSB5b3Ugd2lsbCBiZSB0YWtlbiB0byBoYXZlIGFncmVlZCB0byB0aGUgZm9sbG93aW5nCiAgICAgICAgICAgIFRlcm1zIGFuZCBDb25kaXRpb25zOjxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSAod2hpY2ggaW5jbHVkZXMKICAgICAgICAgICAgZG93bmxvYWRhYmxlIG1hdGVyaWFsKSBhcmUgc3ViamVjdCB0byBjb3B5cmlnaHQgYW5kIGFyZQogICAgICAgICAgICBwcm90ZWN0ZWQgYnkgbGF3cyBvZiBBdXN0cmFsaWEgYW5kIG90aGVyIGNvdW50cmllcyB0aHJvdWdoCiAgICAgICAgICAgIGludGVybmF0aW9uYWwgdHJlYXRpZXMuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgTm9ydGggU3lkbmV5IENvdW5jaWwgZ3JhbnRzIHlvdSBhIG5vbi1leGNsdXNpdmUgbGljZW5jZSB0bwogICAgICAgICAgICByZXByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyIHdlYiBicm93c2VyCiAgICAgICAgICAgIChhbmQgaW4gYW55IGNhY2hlIGZpbGUgcHJvZHVjZWQgYnkgeW91ciB3ZWIgYnJvd3NlcikgZm9yIHRoZQogICAgICAgICAgICBzb2xlIHB1cnBvc2Ugb2YgPHNwYW4gc3R5bGU9InRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI+dmlld2luZzwvc3Bhbj4gdGhlIGNvbnRlbnQuIE5vcnRoIFN5ZG5leSBDb3VuY2lsCiAgICAgICAgICAgIHJlc2VydmVzIGFsbCBvdGhlciByaWdodHMuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVGhlIGluZm9ybWF0aW9uIHByb3ZpZGVkIG9uIHRoaXMgd2Vic2l0ZSBpcyB0byBhc3Npc3QKICAgICAgICAgICAgY3VzdG9tZXJzIGluIHRyYWNraW5nIHRoZSBwcm9ncmVzcyBvZiB0aGUgRGV2ZWxvcG1lbnQKICAgICAgICAgICAgQXBwbGljYXRpb24uIEl0IHJlcHJlc2VudHMga2V5IG1pbGVzdG9uZXMgaW4gdGhlIERldmVsb3BtZW50CiAgICAgICAgICAgIEFwcGxpY2F0aW9uIHByb2Nlc3MgYnV0IGlzIG5vdCBhIGRldGFpbGVkIGhpc3RvcnkuIFBlcnNvbnMKICAgICAgICAgICAgd2lzaGluZyB0byBjb25maXJtIGluZm9ybWF0aW9uIGluIGRldGFpbCBzaG91bGQgY29udGFjdAogICAgICAgICAgICBDb3VuY2lsIHZpYSBlaXRoZXIgdGhlIGVtYWlsIGZhY2lsaXR5IGF0IHRoZSBib3R0b20gb2YKICAgICAgICAgICAgRGV2ZWxvcG1lbnQgQXBwbGljYXRpb24gdHJhY2tpbmcgd2luZG93LCBvciBpbiB3cml0aW5nIGluCiAgICAgICAgICAgIG9yZGVyIHRvIG9idGFpbiBhIHdyaXR0ZW4gcmVzcG9uc2UuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVG8gdGhlIG1heGltdW0gZXh0ZW50IHBlcm1pdHRlZCBieSBsYXcsCiAgICAgICAgICAgIE5vcnRoIFN5ZG5leSBDb3VuY2lsIGV4Y2x1ZGVzIGFsbCBsaWFiaWxpdHkgdG8geW91IGZvciBsb3NzIG9yCiAgICAgICAgICAgIGRhbWFnZSBvZiBhbnkga2luZCAoaG93ZXZlciBjYXVzZWQsIGluY2x1ZGluZyBieSBuZWdsaWdlbmNlKQogICAgICAgICAgICBhcmlzaW5nIGZyb20gb3IgcmVsYXRpbmcgaW4gYW55IHdheSB0byB0aGUgY29udGVudHMgb2YgdGhpcwogICAgICAgICAgICB3ZWJzaXRlIGFuZC9vciB5b3VyIHVzZSBvZiBpdC4KICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlCiAgICAgICAgICAgIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZSBvZiBOZXcgU291dGggV2FsZXMsCiAgICAgICAgICAgIEF1c3RyYWxpYS4KICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBCeQogICAgICAgICAgICBhY2Nlc3NpbmcgdGhpcyBpbmZvcm1hdGlvbiBJIHJlcXVlc3QgdG8gZG8gc28gdW5kZXIgdGhlIEdvdmVybm1lbnQKICAgICAgICAgICAgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIEFjdCAyMDA5IChOU1cpIChHSVBBIEFjdCkgYW5kIEkKICAgICAgICAgICAgdW5kZXJzdGFuZCB0aGF0IENvdW5jaWwKICAgICAgICAgICAgaXMgbWFraW5nIHRoZSBpbmZvcm1hdGlvbiBhdmFpbGFibGUgdW5kZXIgdGhlIHByb3Zpc2lvbnMgb2YgdGhlCiAgICAgICAgICAgIEdvdmVybm1lbnQgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIEFjdCAyMDA5IChOU1cpIChHSVBBIEFjdCkuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgQWxsIGFwcGxpY2F0aW9ucyBieSBtZW1iZXJzIG9mIHRoZSBwdWJsaWMgdG8gdmlldyBDb3VuY2lsJ3MgcmVjb3JkcyBhcmUgc3ViamVjdCB0byB0aGUKICAgICAgICAgICAgcHJvdmlzaW9ucyBvZiBDb3VuY2lsJ3MgUHJpdmFjeSBNYW5hZ2VtZW50IFBsYW4sIFNlY3Rpb24gMTggR292ZXJubWVudCBJbmZvcm1hdGlvbiAoUHVibGljIEFjY2VzcykKICAgICAgICAgICAgQWN0IDIwMDkgJmFtcDsgU2NoZWR1bGUgMSAtIEdvdmVybm1lbnQgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIFJlZ3VsYXRpb24gMjAwOS4KICAgICAgICAgICAgPC90ZD4KICAgICAgICA8L3RyPgogICAgPC90Ym9keT4KPC90YWJsZT4KPC9kaXY+CjxiciAvPgpJIGFncmVlIHRvIHRoZSBhYm92ZSB0ZXJtcyBhbmQgY29uZGl0aW9uczxiciAvPmQCBw8PFgIfAGhkZAIJDxYCHwFlZAINDxYCHwEFxwsKPGRpdiBjbGFzcz0icmlnaHQiIHN0eWxlPSJ3aWR0aDogMTIwcHg7Ij4KPGEgY2xhc3M9ImZhY2Vib29rLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9OdGhTeWRDb3VuY2lsIj4KPC9hPjxhIGNsYXNzPSJ0d2l0dGVyLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vdHdpdHRlci5jb20vTnRoU3lkQ291bmNpbCI+CjwvYT48YSBjbGFzcz0iaW5zdGFncmFtLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3Lmluc3RhZ3JhbS5jb20vbm9ydGguc3lkbmV5Ij48L2E+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtMSBsZWZ0Ij4KPGgzPgpNYWluIE9mZmljZTwvaDM+CjIwMCBNaWxsZXIgU3RyZWV0CjxiciAvPgpOb3J0aCBTeWRuZXkgMjA2MAo8YnIgLz4KVGVsZXBob25lOiAoMDIpIDk5MzYgODEwMAo8YnIgLz4KRmF4OiAoMDIpIDk5MzYgODE3NzwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtMiBsZWZ0Ij4KPGgzPgpTdGFudG9uIExpYnJhcnk8L2gzPgoyMzQgTWlsbGVyIFN0cmVldAo8YnIgLz4KTm9ydGggU3lkbmV5IDIwNjAKPGJyIC8+ClRlbGVwaG9uZTogKDAyKSA5OTM2IDg0MDAKPC9kaXY+CjxkaXYgY2xhc3M9ImNvbC0zIGxlZnQiPgo8aDM+Ck5vcnRoIFN5ZG5leSBPdmFsPC9oMz4KNSBGaWcgVHJlZSBMYW5lCjxiciAvPgpOb3J0aCBTeWRuZXkgMjA2MAo8YnIgLz4KVGVsZXBob25lOiAoMDIpIDk5MzYgODU4NQo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLTQgbGVmdCI+CjxoMz4KTm9ydGggU3lkbmV5IE9seW1waWMgUG9vbDwvaDM+CjQgQWxmcmVkIFN0cmVldCBTb3V0aAo8YnIgLz4KTWlsc29ucyBQb2ludCAyMDYxCjxiciAvPgpUZWxlcGhvbmU6ICgwMikgOTk1NSAyMzA5CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjbGVhciI+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJmb290ZXItbGluay13cmFwIj4KPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9JbmZvcm1hdGlvbl9QYWdlcy9Qcml2YWN5Ij5Qcml2YWN5PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvRGlzY2xhaW1lciI+RGlzY2xhaW1lcjwvYT4KfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL0NvcHlyaWdodCI+Q29weXJpZ2h0PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvQS1aX0xpc3RpbmciPkEtWiBMaXN0PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvU2l0ZW1hcCI+U2l0ZW1hcDwvYT4KPC9kaXY+CjxkaXYgY2xhc3M9ImZhZGVkLXRleHQiPgomY29weTsgTm9ydGggU3lkbmV5IENvdW5jaWwgMjAxNi8xNwo8L2Rpdj5kAg4PFgIfAQWJFjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc+QGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvc3R5bGUuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2NvbW1vbi5jc3MnKTsKQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvZGF0YS1saXN0LXZpZXcuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL21haW5tZW51LmNzcz9zZWFtbGVzc3RzPTYzNjQ1MzAyOTg2MDU4NDk0OScpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9zaXRlLmNzcz92PTEuMScpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9mb3JtLXRlbXBsYXRlLmNzcycpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi93bkdhbGxlcnkuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL0NhbGVuZGFyLmNzcycpOwovKkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2pxdWVyeS11aS0xLjkuMC5jdXN0b20uY3NzJyk7CgovKiBTdGFuZGFyZCBEZWZhdWx0IE1hc3RlciBTdHlsaW5nICovCgojbWFpbmxpbmUge2hlaWdodDo0MXB4ICFpbXBvcnRhbnQ7IGJhY2tncm91bmQtY29sb3I6I0YzRjNGMyAhaW1wb3J0YW50O30KI21haW5saW5lIHtiYWNrZ3JvdW5kOiBub25lO2JvcmRlcjpub25lICFpbXBvcnRhbnQ7fQojYmQuY3VzdG9tTWFzdGVyLUJvZHkge2JvcmRlci10b3A6bm9uZSAhaW1wb3J0YW50O30KI21pZC1tZW51Lm1lbnUge21hcmdpbi1sZWZ0OjA7fQoKcC5tYWluLWZvb3Rlci1wYXJhIHttYXJnaW4tYm90dG9tOiAxcHg7IHBhZGRpbmctYm90dG9tOjA7fQoKI2hkIHttaW4taGVpZ2h0OjIwNHB4ICFpbXBvcnRhbnQ7YmFja2dyb3VuZC1jb2xvcjp0cmFuc3BhcmVudCAhaW1wb3J0YW50O30KI25hdndyYXAge2JhY2tncm91bmQ6IG5vbmU7Ym9yZGVyLXRvcDpub25lO2hlaWdodDoxNXB4O30KCmltZyN0MWxvZ28ge2Rpc3BsYXk6bm9uZTt9CgouY3VzdG9tTWFzdGVyLUhlYWRlciA+IGRpdiA+IC5jb250YWluZXJMZWZ0IHsgd2lkdGg6MTAwJTt9CiNtYWlubGluZS5jdXN0b21NYXN0ZXItSGVhZGVyID4gLmFkbWluYmFubmVyIHtkaXNwbGF5Om5vbmU7fQoKYm9keSB7YmFja2dyb3VuZC1jb2xvcjogIzY0NTc0RiAhaW1wb3J0YW50O30KI2RvY2Yge2JvcmRlci1sZWZ0OiBub25lICFpbXBvcnRhbnQ7IGJvcmRlci1yaWdodDpub25lICFpbXBvcnRhbnQ7IHdpZHRoOjEwMDBweCAhaW1wb3J0YW50O30KCiNjdGwwMF9jdE1haW5fbWFpbiA+ICNjb250ZW50IHt3aWR0aDo4MDBweCAhaW1wb3J0YW50O21hcmdpbjowICFpbXBvcnRhbnQ7fQojY3RsMDBfY3RNYWluX2N0cmxMb2dpbl9wbmxVc2VyTG9naW4gPiBkaXYgPiBkaXYge3dpZHRoOjc1JSAhaW1wb3J0YW50O30KI2N0bDAwX2N0TWFpbl9jdHJsTG9naW5fcG5sVXNlckxvZ2luID4gZGl2ID4gZGl2I2N0bDAwX2N0TWFpbl9jdHJsTG9naW5fY3RybFNvY2lhbExvZ2luIHt3aWR0aDoxJSAhaW1wb3J0YW50O2Rpc3BsYXk6bm9uZSAhaW1wb3J0YW50O30KCi8qIE5TQyBDVVNUT01JU0FUSU9OIDIwLzA5LzIwMTcgKi8KaW5wdXQuYnV0dG9uQWRkW3R5cGU9c3VibWl0XSB7YmFja2dyb3VuZC1jb2xvcjojQ0FEQjQ2O30KaW5wdXQuYnV0dG9uQWRkW3R5cGU9c3VibWl0XTpob3ZlciB7YmFja2dyb3VuZC1jb2xvcjojOEVDNzRDO30KaW5wdXQuYnV0dG9uTW9kaWZ5W3R5cGU9c3VibWl0XSB7YmFja2dyb3VuZC1jb2xvcjojQ0FEQjQ2O30KaW5wdXQuYnV0dG9uTW9kaWZ5W3R5cGU9c3VibWl0XTpob3ZlciB7YmFja2dyb3VuZC1jb2xvcjojOEVDNzRDO30KCgouTGlua3NTZWN0aW9uIHsKICAgIG1hcmdpbi1sZWZ0OiAxMHB4ICFpbXBvcnRhbnQ7Cn0KIDwvc3R5bGU+ZGTj+v6F6dhYuy5gzWTtXR3Hlf01SQ==\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3a8f95decb-d716-4257-bc42-c772df7173e5%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"A8DC4E82\" />\r\n<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEdAAKqmugmnUXloXjg4Let5Zp7RN3IHP978JyB8nnPGPiPCFzkXavTunTaE7w3tWoAzY1XErC0\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            jGrowlPosition =
+        \"top-right\";\r\n        </script>\r\n        \r\n        \r\n        <div
+        id=\"docf\">\r\n            <div id=\"hd\" role=\"banner\">\r\n                <div
+        id=\"navwrap\" role=\"navigation\">\r\n                    \r\n                    <div
+        id=\"menuline\" class=\"customMaster-TopMenu floatLeft\">\r\n                        \r\n
+        \                   </div>\r\n                </div>\r\n                <div
+        id=\"headline\" class=\"customMaster-Header environmentPROD\">\r\n                    <div
+        class=\"header\">\n<div class=\"logo\">\n<a href=\"https://www.northsydney.nsw.gov.au/\">\n<img
+        alt=\"\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/logo.gif\"
+        /></a></div>\n<div class=\"top-link-wrapper\">\n<div class=\"right button-wrap\"><a
+        href=\"https://www.northsydney.nsw.gov.au/Information_Pages/RSS_Feeds\" class=\"rss-button\">\n</a>\n</div>\n<div
+        class=\"left\">\n<a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings/Our_Organisation/Contact_Us\">Contact
+        Us</a> | <a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings/Council_News/E-news\">\nE-news</a>
+        | <a href=\"#\" id=\"larger-trigger\">Larger Text</a> | <a href=\"#\" id=\"smaller-trigger\">\nSmaller
+        Text</a>\n</div>\n</div>\n<div class=\"search-wrapper\">\n</div>\n</div>\r\n
+        \               </div>\r\n                <div class=\"clear adminclear\"></div>\r\n
+        \               <div id=\"mainline\" class=\"customMaster-Header\">\r\n                    <div
+        id=\"midmenuline\" class=\"customMaster-MidMenu floatLeft\">\r\n                        <!--Get
+        parent menu item to display-->\r\n<!--Build HTML of Menu-->\r\n<div id=\"mid-menu\"
+        class=\"menu\">\r\n  <div class=\"mainmenuContainer\">\r\n    <ul class=\"mainMenu\">\r\n
+        \     <li class=\"level1 seq1\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings\"
+        title=\"Council &amp; Meetings\" class=\"level1 seq1\" target=\"\">Council
+        &amp; Meetings</a>\r\n      </li>\r\n      <li class=\"level1 seq2\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Community_Services\"
+        title=\"Community &amp; Services\" class=\"level1 seq2\" target=\"\">Community
+        &amp; Services</a>\r\n      </li>\r\n      <li class=\"level1 seq3\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Building_Development\"
+        title=\"Building &amp; Development\" class=\"level1 seq3\" target=\"\">Building
+        &amp; Development</a>\r\n      </li>\r\n      <li class=\"level1 seq4\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Waste_Environment\" title=\"Waste
+        &amp; Environment\" class=\"level1 seq4\" target=\"\">Waste &amp; Environment</a>\r\n
+        \     </li>\r\n      <li class=\"level1 seq5\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Recreation_Facilities\"
+        title=\"Recreation &amp; Facilities\" class=\"level1 seq5\" target=\"\">Recreation
+        &amp; Facilities</a>\r\n      </li>\r\n      <li class=\"level1 seq6\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Library_Databases\" title=\"Library
+        &amp; Databases\" class=\"level1 seq6\" target=\"\">Library &amp; Databases</a>\r\n
+        \     </li>\r\n      <li class=\"level1 seq7\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Transport_Parking\"
+        title=\"Transport &amp; Parking\" class=\"level1 seq7\" target=\"\">Transport
+        &amp; Parking</a>\r\n      </li>\r\n      <li class=\"level1 seq8\">\r\n        <a
+        href=\"https://www.northsydney.nsw.gov.au/Business_Projects\" title=\"Business
+        &amp; Projects\" class=\"level1 seq8\" target=\"\">Business &amp; Projects</a>\r\n
+        \     </li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n<div class=\"breadcrumb\">\r\n
+        \ <span class=\"share-widgets\">\r\n    <a href=\"#\" class=\"share addthis_button_compact\">
+        </a>\r\n    <a href=\"javascript: window.print()\" title=\"Print preview this
+        page\" class=\"print\"> </a>\r\n  </span>\r\n  <span class=\"breadcrumbs\">\r\n
+        \   <a href=\"https://www.northsydney.nsw.gov.au/Home\" style=\"text-decoration:none;\">\r\n
+        \     <img class=\"breadcrumb-home\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-home.gif\"
+        />\r\n    </a>\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Home\">Home</a>\r\n
+        \   <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Building_Development\">Building
+        &amp; Development</a>\r\n    <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Building_Development/Current_DAs\">Current
+        DAs</a>\r\n    <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n            Application Tracking\r\n        </span>\r\n</div>\r\n                    </div>\r\n
+        \                   <div class=\"containerLeft adminbanner splitterLeftMaster
+        noOverflow\">\r\n                        \r\n                        <div
+        style=\"margin-top: 5px; padding: 3px; padding-left: 12px;\" id=\"adminpage\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight adminbanner splitterRightMaster
+        noOverflow\">\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"clear\"></div>\r\n
+        \           </div>\r\n            <div class=\"clear\"></div>\r\n            <div
+        id=\"bd\" class=\"customMaster-Body\" role=\"main\">\r\n                <div
+        id=\"main\">\r\n                    <div class=\"containerLeft customMaster-Body\">\r\n
+        \                       <div class=\"containerInner\">\r\n                            <div
+        class=\"padded\">\r\n                                \r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                    <div
+        class=\"containerRight customMaster-Body\">\r\n                        \r\n
+        \                       <div class=\"containerInner\">\r\n                            <div
+        class=\"padded\">\r\n                                \r\n    <div id=\"ctl00_ctMain_main\">\r\n
+        \       <div style=\"padding: 3px; border: 1px solid #dddddd; border-image:
+        none; width: 95%; overflow: visible;\">\n<p><strong>Welcome!</strong><br />\nApplication
+        Tracking allows you to track the progress of a development application from
+        lodgement to determination.\n</p>\n<p><strong>This service applies to all
+        development applications submitted since 1st of August 2005.</strong></p>\n<div
+        style=\"text-align: left;\"><a href=\"http://www.northsydney.nsw.gov.au/Building_Development/Current_DAs/DA_Consents\"
+        class=\"ListLink\" target=\"_blank\">&nbsp;&nbsp;&nbsp;&gt; View the Approved
+        Development Consents.</a></div>\n<p>Before proceeding, please read the following
+        Terms and Conditions and select a button at the bottom of the page.</p>\n<table
+        width=\"98%\" align=\"center\" border=\"1\">\n    <tbody>\n        <tr valign=\"top\">\n
+        \           <td style=\"width: 100%;\"><strong><em><span style=\"color: #ff0000;\">Terms
+        and\n            Conditions</span></em></strong></td>\n        </tr>\n        <tr
+        valign=\"top\">\n            <td style=\"width: 100%;\">If you access this\n
+        \           website you will be taken to have agreed to the following\n            Terms
+        and Conditions:<br />\n            <br />\n            The contents of this
+        website (which includes\n            downloadable material) are subject to
+        copyright and are\n            protected by laws of Australia and other countries
+        through\n            international treaties.\n            <br />\n            <br
+        />\n            North Sydney Council grants you a non-exclusive licence to\n
+        \           reproduce the contents of this website in your web browser\n            (and
+        in any cache file produced by your web browser) for the\n            sole
+        purpose of <span style=\"text-decoration: underline;\">viewing</span> the
+        content. North Sydney Council\n            reserves all other rights.\n            <br
+        />\n            <br />\n            The information provided on this website
+        is to assist\n            customers in tracking the progress of the Development\n
+        \           Application. It represents key milestones in the Development\n
+        \           Application process but is not a detailed history. Persons\n            wishing
+        to confirm information in detail should contact\n            Council via either
+        the email facility at the bottom of\n            Development Application tracking
+        window, or in writing in\n            order to obtain a written response.\n
+        \           <br />\n            <br />\n            To the maximum extent
+        permitted by law,\n            North Sydney Council excludes all liability
+        to you for loss or\n            damage of any kind (however caused, including
+        by negligence)\n            arising from or relating in any way to the contents
+        of this\n            website and/or your use of it.\n            <br />\n
+        \           <br />\n            All matters relating to this website are\n
+        \           governed by the laws of the State of New South Wales,\n            Australia.\n
+        \           <br />\n            <br />\n            By\n            accessing
+        this information I request to do so under the Government\n            Information
+        (Public Access) Act 2009 (NSW) (GIPA Act) and I\n            understand that
+        Council\n            is making the information available under the provisions
+        of the\n            Government Information (Public Access) Act 2009 (NSW)
+        (GIPA Act).\n            <br />\n            <br />\n            All applications
+        by members of the public to view Council's records are subject to the\n            provisions
+        of Council's Privacy Management Plan, Section 18 Government Information (Public
+        Access)\n            Act 2009 &amp; Schedule 1 - Government Information (Public
+        Access) Regulation 2009.\n            </td>\n        </tr>\n    </tbody>\n</table>\n</div>\n<br
+        />\nI agree to the above terms and conditions<br />\r\n        <br />\r\n
+        \       <input type=\"submit\" name=\"ctl00$ctMain$BtnAgree\" value=\"I Agree\"
+        id=\"ctl00_ctMain_BtnAgree\" class=\"buttonText buttonAdd\" />\r\n        \r\n
+        \       \r\n    </div>\r\n\r\n                            </div>\r\n                        </div>\r\n
+        \                   </div>\r\n                </div>\r\n            </div>\r\n
+        \           <div class=\"footer\">\r\n                \n<div class=\"right\"
+        style=\"width: 120px;\">\n<a class=\"facebook-link right\" target=\"_blank\"
+        href=\"http://www.facebook.com/NthSydCouncil\">\n</a><a class=\"twitter-link
+        right\" target=\"_blank\" href=\"http://twitter.com/NthSydCouncil\">\n</a><a
+        class=\"instagram-link right\" target=\"_blank\" href=\"http://www.instagram.com/north.sydney\"></a>\n</div>\n<div
+        class=\"col-1 left\">\n<h3>\nMain Office</h3>\n200 Miller Street\n<br />\nNorth
+        Sydney 2060\n<br />\nTelephone: (02) 9936 8100\n<br />\nFax: (02) 9936 8177</div>\n<div
+        class=\"col-2 left\">\n<h3>\nStanton Library</h3>\n234 Miller Street\n<br
+        />\nNorth Sydney 2060\n<br />\nTelephone: (02) 9936 8400\n</div>\n<div class=\"col-3
+        left\">\n<h3>\nNorth Sydney Oval</h3>\n5 Fig Tree Lane\n<br />\nNorth Sydney
+        2060\n<br />\nTelephone: (02) 9936 8585\n</div>\n<div class=\"col-4 left\">\n<h3>\nNorth
+        Sydney Olympic Pool</h3>\n4 Alfred Street South\n<br />\nMilsons Point 2061\n<br
+        />\nTelephone: (02) 9955 2309\n</div>\n<div class=\"clear\">\n</div>\n<div
+        class=\"footer-link-wrap\">\n<a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Privacy\">Privacy</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Disclaimer\">Disclaimer</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Copyright\">Copyright</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/A-Z_Listing\">A-Z
+        List</a>\n| <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Sitemap\">Sitemap</a>\n</div>\n<div
+        class=\"faded-text\">\n&copy; North Sydney Council 2016/17\n</div>\r\n            </div>\r\n
+        \       </div>\r\n        <style type='text/css'>@import url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/style.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/common.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/data-list-view.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/mainmenu.css?seamlessts=636453029860584949');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/site.css?v=1.1');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/form-template.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/wnGallery.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/Calendar.css');\n/*@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/jquery-ui-1.9.0.custom.css');\n\n/*
+        Standard Default Master Styling */\n\n#mainline {height:41px !important; background-color:#F3F3F3
+        !important;}\n#mainline {background: none;border:none !important;}\n#bd.customMaster-Body
+        {border-top:none !important;}\n#mid-menu.menu {margin-left:0;}\n\np.main-footer-para
+        {margin-bottom: 1px; padding-bottom:0;}\n\n#hd {min-height:204px !important;background-color:transparent
+        !important;}\n#navwrap {background: none;border-top:none;height:15px;}\n\nimg#t1logo
+        {display:none;}\n\n.customMaster-Header > div > .containerLeft { width:100%;}\n#mainline.customMaster-Header
+        > .adminbanner {display:none;}\n\nbody {background-color: #64574F !important;}\n#docf
+        {border-left: none !important; border-right:none !important; width:1000px
+        !important;}\n\n#ctl00_ctMain_main > #content {width:800px !important;margin:0
+        !important;}\n#ctl00_ctMain_ctrlLogin_pnlUserLogin > div > div {width:75%
+        !important;}\n#ctl00_ctMain_ctrlLogin_pnlUserLogin > div > div#ctl00_ctMain_ctrlLogin_ctrlSocialLogin
+        {width:1% !important;display:none !important;}\n\n/* NSC CUSTOMISATION 20/09/2017
+        */\ninput.buttonAdd[type=submit] {background-color:#CADB46;}\ninput.buttonAdd[type=submit]:hover
+        {background-color:#8EC74C;}\ninput.buttonModify[type=submit] {background-color:#CADB46;}\ninput.buttonModify[type=submit]:hover
+        {background-color:#8EC74C;}\n\n\n.LinksSection {\n    margin-left: 10px !important;\n}\n
+        </style>\r\n        \r\n        <script type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
+        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            //$(document).ready(function
+        () {\r\n            //    document.title = document.title + ' - TechnologyOne';\r\n
+        \           //});\r\n        </script>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://apptracking.northsydney.nsw.gov.au/Common/Common/terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWEAICDw8WAh4HVmlzaWJsZWhkZAIDDxYCHgRUZXh0BWM8ZGl2IGlkPSduYXYnIGNsYXNzPSdmbG9hdFJpZ2h0IGFkbWlubmF2Jz48YSBocmVmPScuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Jz5Mb2dpbjwvYT48L2Rpdj5kAgQPDxYCHwBoZGQCBQ8WAh8BBZ4GPGRpdiBjbGFzcz0iaGVhZGVyIj4KPGRpdiBjbGFzcz0ibG9nbyI%2BCjxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvIj4KPGltZyBhbHQ9IiIgc3JjPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2xvZ28uZ2lmIiAvPjwvYT48L2Rpdj4KPGRpdiBjbGFzcz0idG9wLWxpbmstd3JhcHBlciI%2BCjxkaXYgY2xhc3M9InJpZ2h0IGJ1dHRvbi13cmFwIj48YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL1JTU19GZWVkcyIgY2xhc3M9InJzcy1idXR0b24iPgo8L2E%2BCjwvZGl2Pgo8ZGl2IGNsYXNzPSJsZWZ0Ij4KPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9Db3VuY2lsX01lZXRpbmdzL091cl9PcmdhbmlzYXRpb24vQ29udGFjdF9VcyI%2BQ29udGFjdCBVczwvYT4gfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0NvdW5jaWxfTWVldGluZ3MvQ291bmNpbF9OZXdzL0UtbmV3cyI%2BCkUtbmV3czwvYT4gfCA8YSBocmVmPSIjIiBpZD0ibGFyZ2VyLXRyaWdnZXIiPkxhcmdlciBUZXh0PC9hPiB8IDxhIGhyZWY9IiMiIGlkPSJzbWFsbGVyLXRyaWdnZXIiPgpTbWFsbGVyIFRleHQ8L2E%2BCjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic2VhcmNoLXdyYXBwZXIiPgo8L2Rpdj4KPC9kaXY%2BZAIIDxYCHwFlZAIMD2QWAgIBD2QWBgIBDxYCHwEFtB08ZGl2IHN0eWxlPSJwYWRkaW5nOiAzcHg7IGJvcmRlcjogMXB4IHNvbGlkICNkZGRkZGQ7IGJvcmRlci1pbWFnZTogbm9uZTsgd2lkdGg6IDk1JTsgb3ZlcmZsb3c6IHZpc2libGU7Ij4KPHA%2BPHN0cm9uZz5XZWxjb21lITwvc3Ryb25nPjxiciAvPgpBcHBsaWNhdGlvbiBUcmFja2luZyBhbGxvd3MgeW91IHRvIHRyYWNrIHRoZSBwcm9ncmVzcyBvZiBhIGRldmVsb3BtZW50IGFwcGxpY2F0aW9uIGZyb20gbG9kZ2VtZW50IHRvIGRldGVybWluYXRpb24uCjwvcD4KPHA%2BPHN0cm9uZz5UaGlzIHNlcnZpY2UgYXBwbGllcyB0byBhbGwgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIHN1Ym1pdHRlZCBzaW5jZSAxc3Qgb2YgQXVndXN0IDIwMDUuPC9zdHJvbmc%2BPC9wPgo8ZGl2IHN0eWxlPSJ0ZXh0LWFsaWduOiBsZWZ0OyI%2BPGEgaHJlZj0iaHR0cDovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0J1aWxkaW5nX0RldmVsb3BtZW50L0N1cnJlbnRfREFzL0RBX0NvbnNlbnRzIiBjbGFzcz0iTGlzdExpbmsiIHRhcmdldD0iX2JsYW5rIj4mbmJzcDsmbmJzcDsmbmJzcDsmZ3Q7IFZpZXcgdGhlIEFwcHJvdmVkIERldmVsb3BtZW50IENvbnNlbnRzLjwvYT48L2Rpdj4KPHA%2BQmVmb3JlIHByb2NlZWRpbmcsIHBsZWFzZSByZWFkIHRoZSBmb2xsb3dpbmcgVGVybXMgYW5kIENvbmRpdGlvbnMgYW5kIHNlbGVjdCBhIGJ1dHRvbiBhdCB0aGUgYm90dG9tIG9mIHRoZSBwYWdlLjwvcD4KPHRhYmxlIHdpZHRoPSI5OCUiIGFsaWduPSJjZW50ZXIiIGJvcmRlcj0iMSI%2BCiAgICA8dGJvZHk%2BCiAgICAgICAgPHRyIHZhbGlnbj0idG9wIj4KICAgICAgICAgICAgPHRkIHN0eWxlPSJ3aWR0aDogMTAwJTsiPjxzdHJvbmc%2BPGVtPjxzcGFuIHN0eWxlPSJjb2xvcjogI2ZmMDAwMDsiPlRlcm1zIGFuZAogICAgICAgICAgICBDb25kaXRpb25zPC9zcGFuPjwvZW0%2BPC9zdHJvbmc%2BPC90ZD4KICAgICAgICA8L3RyPgogICAgICAgIDx0ciB2YWxpZ249InRvcCI%2BCiAgICAgICAgICAgIDx0ZCBzdHlsZT0id2lkdGg6IDEwMCU7Ij5JZiB5b3UgYWNjZXNzIHRoaXMKICAgICAgICAgICAgd2Vic2l0ZSB5b3Ugd2lsbCBiZSB0YWtlbiB0byBoYXZlIGFncmVlZCB0byB0aGUgZm9sbG93aW5nCiAgICAgICAgICAgIFRlcm1zIGFuZCBDb25kaXRpb25zOjxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSAod2hpY2ggaW5jbHVkZXMKICAgICAgICAgICAgZG93bmxvYWRhYmxlIG1hdGVyaWFsKSBhcmUgc3ViamVjdCB0byBjb3B5cmlnaHQgYW5kIGFyZQogICAgICAgICAgICBwcm90ZWN0ZWQgYnkgbGF3cyBvZiBBdXN0cmFsaWEgYW5kIG90aGVyIGNvdW50cmllcyB0aHJvdWdoCiAgICAgICAgICAgIGludGVybmF0aW9uYWwgdHJlYXRpZXMuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgTm9ydGggU3lkbmV5IENvdW5jaWwgZ3JhbnRzIHlvdSBhIG5vbi1leGNsdXNpdmUgbGljZW5jZSB0bwogICAgICAgICAgICByZXByb2R1Y2UgdGhlIGNvbnRlbnRzIG9mIHRoaXMgd2Vic2l0ZSBpbiB5b3VyIHdlYiBicm93c2VyCiAgICAgICAgICAgIChhbmQgaW4gYW55IGNhY2hlIGZpbGUgcHJvZHVjZWQgYnkgeW91ciB3ZWIgYnJvd3NlcikgZm9yIHRoZQogICAgICAgICAgICBzb2xlIHB1cnBvc2Ugb2YgPHNwYW4gc3R5bGU9InRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyI%2Bdmlld2luZzwvc3Bhbj4gdGhlIGNvbnRlbnQuIE5vcnRoIFN5ZG5leSBDb3VuY2lsCiAgICAgICAgICAgIHJlc2VydmVzIGFsbCBvdGhlciByaWdodHMuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVGhlIGluZm9ybWF0aW9uIHByb3ZpZGVkIG9uIHRoaXMgd2Vic2l0ZSBpcyB0byBhc3Npc3QKICAgICAgICAgICAgY3VzdG9tZXJzIGluIHRyYWNraW5nIHRoZSBwcm9ncmVzcyBvZiB0aGUgRGV2ZWxvcG1lbnQKICAgICAgICAgICAgQXBwbGljYXRpb24uIEl0IHJlcHJlc2VudHMga2V5IG1pbGVzdG9uZXMgaW4gdGhlIERldmVsb3BtZW50CiAgICAgICAgICAgIEFwcGxpY2F0aW9uIHByb2Nlc3MgYnV0IGlzIG5vdCBhIGRldGFpbGVkIGhpc3RvcnkuIFBlcnNvbnMKICAgICAgICAgICAgd2lzaGluZyB0byBjb25maXJtIGluZm9ybWF0aW9uIGluIGRldGFpbCBzaG91bGQgY29udGFjdAogICAgICAgICAgICBDb3VuY2lsIHZpYSBlaXRoZXIgdGhlIGVtYWlsIGZhY2lsaXR5IGF0IHRoZSBib3R0b20gb2YKICAgICAgICAgICAgRGV2ZWxvcG1lbnQgQXBwbGljYXRpb24gdHJhY2tpbmcgd2luZG93LCBvciBpbiB3cml0aW5nIGluCiAgICAgICAgICAgIG9yZGVyIHRvIG9idGFpbiBhIHdyaXR0ZW4gcmVzcG9uc2UuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgVG8gdGhlIG1heGltdW0gZXh0ZW50IHBlcm1pdHRlZCBieSBsYXcsCiAgICAgICAgICAgIE5vcnRoIFN5ZG5leSBDb3VuY2lsIGV4Y2x1ZGVzIGFsbCBsaWFiaWxpdHkgdG8geW91IGZvciBsb3NzIG9yCiAgICAgICAgICAgIGRhbWFnZSBvZiBhbnkga2luZCAoaG93ZXZlciBjYXVzZWQsIGluY2x1ZGluZyBieSBuZWdsaWdlbmNlKQogICAgICAgICAgICBhcmlzaW5nIGZyb20gb3IgcmVsYXRpbmcgaW4gYW55IHdheSB0byB0aGUgY29udGVudHMgb2YgdGhpcwogICAgICAgICAgICB3ZWJzaXRlIGFuZC9vciB5b3VyIHVzZSBvZiBpdC4KICAgICAgICAgICAgPGJyIC8%2BCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlCiAgICAgICAgICAgIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZSBvZiBOZXcgU291dGggV2FsZXMsCiAgICAgICAgICAgIEF1c3RyYWxpYS4KICAgICAgICAgICAgPGJyIC8%2BCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICBCeQogICAgICAgICAgICBhY2Nlc3NpbmcgdGhpcyBpbmZvcm1hdGlvbiBJIHJlcXVlc3QgdG8gZG8gc28gdW5kZXIgdGhlIEdvdmVybm1lbnQKICAgICAgICAgICAgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIEFjdCAyMDA5IChOU1cpIChHSVBBIEFjdCkgYW5kIEkKICAgICAgICAgICAgdW5kZXJzdGFuZCB0aGF0IENvdW5jaWwKICAgICAgICAgICAgaXMgbWFraW5nIHRoZSBpbmZvcm1hdGlvbiBhdmFpbGFibGUgdW5kZXIgdGhlIHByb3Zpc2lvbnMgb2YgdGhlCiAgICAgICAgICAgIEdvdmVybm1lbnQgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIEFjdCAyMDA5IChOU1cpIChHSVBBIEFjdCkuCiAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgQWxsIGFwcGxpY2F0aW9ucyBieSBtZW1iZXJzIG9mIHRoZSBwdWJsaWMgdG8gdmlldyBDb3VuY2lsJ3MgcmVjb3JkcyBhcmUgc3ViamVjdCB0byB0aGUKICAgICAgICAgICAgcHJvdmlzaW9ucyBvZiBDb3VuY2lsJ3MgUHJpdmFjeSBNYW5hZ2VtZW50IFBsYW4sIFNlY3Rpb24gMTggR292ZXJubWVudCBJbmZvcm1hdGlvbiAoUHVibGljIEFjY2VzcykKICAgICAgICAgICAgQWN0IDIwMDkgJmFtcDsgU2NoZWR1bGUgMSAtIEdvdmVybm1lbnQgSW5mb3JtYXRpb24gKFB1YmxpYyBBY2Nlc3MpIFJlZ3VsYXRpb24gMjAwOS4KICAgICAgICAgICAgPC90ZD4KICAgICAgICA8L3RyPgogICAgPC90Ym9keT4KPC90YWJsZT4KPC9kaXY%2BCjxiciAvPgpJIGFncmVlIHRvIHRoZSBhYm92ZSB0ZXJtcyBhbmQgY29uZGl0aW9uczxiciAvPmQCBw8PFgIfAGhkZAIJDxYCHwFlZAINDxYCHwEFxwsKPGRpdiBjbGFzcz0icmlnaHQiIHN0eWxlPSJ3aWR0aDogMTIwcHg7Ij4KPGEgY2xhc3M9ImZhY2Vib29rLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3LmZhY2Vib29rLmNvbS9OdGhTeWRDb3VuY2lsIj4KPC9hPjxhIGNsYXNzPSJ0d2l0dGVyLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vdHdpdHRlci5jb20vTnRoU3lkQ291bmNpbCI%2BCjwvYT48YSBjbGFzcz0iaW5zdGFncmFtLWxpbmsgcmlnaHQiIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vd3d3Lmluc3RhZ3JhbS5jb20vbm9ydGguc3lkbmV5Ij48L2E%2BCjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtMSBsZWZ0Ij4KPGgzPgpNYWluIE9mZmljZTwvaDM%2BCjIwMCBNaWxsZXIgU3RyZWV0CjxiciAvPgpOb3J0aCBTeWRuZXkgMjA2MAo8YnIgLz4KVGVsZXBob25lOiAoMDIpIDk5MzYgODEwMAo8YnIgLz4KRmF4OiAoMDIpIDk5MzYgODE3NzwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtMiBsZWZ0Ij4KPGgzPgpTdGFudG9uIExpYnJhcnk8L2gzPgoyMzQgTWlsbGVyIFN0cmVldAo8YnIgLz4KTm9ydGggU3lkbmV5IDIwNjAKPGJyIC8%2BClRlbGVwaG9uZTogKDAyKSA5OTM2IDg0MDAKPC9kaXY%2BCjxkaXYgY2xhc3M9ImNvbC0zIGxlZnQiPgo8aDM%2BCk5vcnRoIFN5ZG5leSBPdmFsPC9oMz4KNSBGaWcgVHJlZSBMYW5lCjxiciAvPgpOb3J0aCBTeWRuZXkgMjA2MAo8YnIgLz4KVGVsZXBob25lOiAoMDIpIDk5MzYgODU4NQo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLTQgbGVmdCI%2BCjxoMz4KTm9ydGggU3lkbmV5IE9seW1waWMgUG9vbDwvaDM%2BCjQgQWxmcmVkIFN0cmVldCBTb3V0aAo8YnIgLz4KTWlsc29ucyBQb2ludCAyMDYxCjxiciAvPgpUZWxlcGhvbmU6ICgwMikgOTk1NSAyMzA5CjwvZGl2Pgo8ZGl2IGNsYXNzPSJjbGVhciI%2BCjwvZGl2Pgo8ZGl2IGNsYXNzPSJmb290ZXItbGluay13cmFwIj4KPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9JbmZvcm1hdGlvbl9QYWdlcy9Qcml2YWN5Ij5Qcml2YWN5PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvRGlzY2xhaW1lciI%2BRGlzY2xhaW1lcjwvYT4KfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL0NvcHlyaWdodCI%2BQ29weXJpZ2h0PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvQS1aX0xpc3RpbmciPkEtWiBMaXN0PC9hPgp8IDxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvU2l0ZW1hcCI%2BU2l0ZW1hcDwvYT4KPC9kaXY%2BCjxkaXYgY2xhc3M9ImZhZGVkLXRleHQiPgomY29weTsgTm9ydGggU3lkbmV5IENvdW5jaWwgMjAxNi8xNwo8L2Rpdj5kAg4PFgIfAQWJFjxzdHlsZSB0eXBlPSd0ZXh0L2Nzcyc%2BQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvc3R5bGUuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2NvbW1vbi5jc3MnKTsKQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvZGF0YS1saXN0LXZpZXcuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL21haW5tZW51LmNzcz9zZWFtbGVzc3RzPTYzNjQ1MzAyOTg2MDU4NDk0OScpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9zaXRlLmNzcz92PTEuMScpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9mb3JtLXRlbXBsYXRlLmNzcycpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi93bkdhbGxlcnkuY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL0NhbGVuZGFyLmNzcycpOwovKkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2pxdWVyeS11aS0xLjkuMC5jdXN0b20uY3NzJyk7CgovKiBTdGFuZGFyZCBEZWZhdWx0IE1hc3RlciBTdHlsaW5nICovCgojbWFpbmxpbmUge2hlaWdodDo0MXB4ICFpbXBvcnRhbnQ7IGJhY2tncm91bmQtY29sb3I6I0YzRjNGMyAhaW1wb3J0YW50O30KI21haW5saW5lIHtiYWNrZ3JvdW5kOiBub25lO2JvcmRlcjpub25lICFpbXBvcnRhbnQ7fQojYmQuY3VzdG9tTWFzdGVyLUJvZHkge2JvcmRlci10b3A6bm9uZSAhaW1wb3J0YW50O30KI21pZC1tZW51Lm1lbnUge21hcmdpbi1sZWZ0OjA7fQoKcC5tYWluLWZvb3Rlci1wYXJhIHttYXJnaW4tYm90dG9tOiAxcHg7IHBhZGRpbmctYm90dG9tOjA7fQoKI2hkIHttaW4taGVpZ2h0OjIwNHB4ICFpbXBvcnRhbnQ7YmFja2dyb3VuZC1jb2xvcjp0cmFuc3BhcmVudCAhaW1wb3J0YW50O30KI25hdndyYXAge2JhY2tncm91bmQ6IG5vbmU7Ym9yZGVyLXRvcDpub25lO2hlaWdodDoxNXB4O30KCmltZyN0MWxvZ28ge2Rpc3BsYXk6bm9uZTt9CgouY3VzdG9tTWFzdGVyLUhlYWRlciA%2BIGRpdiA%2BIC5jb250YWluZXJMZWZ0IHsgd2lkdGg6MTAwJTt9CiNtYWlubGluZS5jdXN0b21NYXN0ZXItSGVhZGVyID4gLmFkbWluYmFubmVyIHtkaXNwbGF5Om5vbmU7fQoKYm9keSB7YmFja2dyb3VuZC1jb2xvcjogIzY0NTc0RiAhaW1wb3J0YW50O30KI2RvY2Yge2JvcmRlci1sZWZ0OiBub25lICFpbXBvcnRhbnQ7IGJvcmRlci1yaWdodDpub25lICFpbXBvcnRhbnQ7IHdpZHRoOjEwMDBweCAhaW1wb3J0YW50O30KCiNjdGwwMF9jdE1haW5fbWFpbiA%2BICNjb250ZW50IHt3aWR0aDo4MDBweCAhaW1wb3J0YW50O21hcmdpbjowICFpbXBvcnRhbnQ7fQojY3RsMDBfY3RNYWluX2N0cmxMb2dpbl9wbmxVc2VyTG9naW4gPiBkaXYgPiBkaXYge3dpZHRoOjc1JSAhaW1wb3J0YW50O30KI2N0bDAwX2N0TWFpbl9jdHJsTG9naW5fcG5sVXNlckxvZ2luID4gZGl2ID4gZGl2I2N0bDAwX2N0TWFpbl9jdHJsTG9naW5fY3RybFNvY2lhbExvZ2luIHt3aWR0aDoxJSAhaW1wb3J0YW50O2Rpc3BsYXk6bm9uZSAhaW1wb3J0YW50O30KCi8qIE5TQyBDVVNUT01JU0FUSU9OIDIwLzA5LzIwMTcgKi8KaW5wdXQuYnV0dG9uQWRkW3R5cGU9c3VibWl0XSB7YmFja2dyb3VuZC1jb2xvcjojQ0FEQjQ2O30KaW5wdXQuYnV0dG9uQWRkW3R5cGU9c3VibWl0XTpob3ZlciB7YmFja2dyb3VuZC1jb2xvcjojOEVDNzRDO30KaW5wdXQuYnV0dG9uTW9kaWZ5W3R5cGU9c3VibWl0XSB7YmFja2dyb3VuZC1jb2xvcjojQ0FEQjQ2O30KaW5wdXQuYnV0dG9uTW9kaWZ5W3R5cGU9c3VibWl0XTpob3ZlciB7YmFja2dyb3VuZC1jb2xvcjojOEVDNzRDO30KCgouTGlua3NTZWN0aW9uIHsKICAgIG1hcmdpbi1sZWZ0OiAxMHB4ICFpbXBvcnRhbnQ7Cn0KIDwvc3R5bGU%2BZGTj%2Bv6F6dhYuy5gzWTtXR3Hlf01SQ%3D%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAAKqmugmnUXloXjg4Let5Zp7RN3IHP978JyB8nnPGPiPCFzkXavTunTaE7w3tWoAzY1XErC0&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=5mqiwyu12lvafy2lhv40fvoc
+      Host:
+      - apptracking.northsydney.nsw.gov.au
+      Referer:
+      - https://apptracking.northsydney.nsw.gov.au/Common/Common/terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '12492'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Content-Encoding:
+      - gzip,gzip
+      Location:
+      - "/Pages/XC.Track/SearchApplication.aspx"
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 16:32:29 GMT
+      Content-Length:
+      - '143'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAFWOQQrCMBBF94XeIfQAGeh6DIgHULALt9NkdKKpCekgentbu3L5H4/HR9EpORSm4FCjJnbH8c5ezZRfHBA2hrAZYw4f1zYo/Z9mNBskI5Wvuw5OdOMZLgc7VPIPODNVL/tSUvSkMT8tzeXdOeHKCOTsEu/XKPzqy1ovtc0XU3r/JJsAAAA=
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=5mqiwyu12lvafy2lhv40fvoc
+      Host:
+      - apptracking.northsydney.nsw.gov.au
+      Referer:
+      - https://apptracking.northsydney.nsw.gov.au/Common/Common/terms.aspx
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      Date:
+      - Sun, 09 Jun 2019 16:32:30 GMT
+      Content-Length:
+      - '42411'
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head
+        id=\"ctl00_Head1\"><meta http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
+        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\"
+        type=\"text/css\" rel=\"stylesheet\" media=\"all\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n    <base target=\"_top\"
+        />\r\n\r\n    <!-- Conditional Queries to load the Formatted Lists CSS files
+        -->\r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\r\n    <style type='text/css'></style><meta
+        http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" /><meta name=\"robots\"
+        content=\"noindex,nofollow\" /><link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><title>\r\n\tFind an Application\r\n</title></head>\r\n<body>\r\n
+        \   <form method=\"post\" action=\"./SearchApplication.aspx\" id=\"aspnetForm\"
+        role=\"form\" autocomplete=\"off\">\r\n<input type=\"hidden\" name=\"ctl00_rcss_TSSM\"
+        id=\"ctl00_rcss_TSSM\" value=\"\" />\r\n<input type=\"hidden\" name=\"ctl00_script_TSM\"
+        id=\"ctl00_script_TSM\" value=\"\" />\r\n<input type=\"hidden\" name=\"__VIEWSTATE\"
+        id=\"__VIEWSTATE\" value=\"/wEPDwUKMTY0Njc3NDkyNA9kFgJmD2QWAgIDD2QWEgICDw8WAh4HVmlzaWJsZWhkZAIDDxYCHgRUZXh0BWM8ZGl2IGlkPSduYXYnIGNsYXNzPSdmbG9hdFJpZ2h0IGFkbWlubmF2Jz48YSBocmVmPScuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Jz5Mb2dpbjwvYT48L2Rpdj5kAgQPDxYCHwBoZGQCBQ8WAh8BBZ4GPGRpdiBjbGFzcz0iaGVhZGVyIj4KPGRpdiBjbGFzcz0ibG9nbyI+CjxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvIj4KPGltZyBhbHQ9IiIgc3JjPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2xvZ28uZ2lmIiAvPjwvYT48L2Rpdj4KPGRpdiBjbGFzcz0idG9wLWxpbmstd3JhcHBlciI+CjxkaXYgY2xhc3M9InJpZ2h0IGJ1dHRvbi13cmFwIj48YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL1JTU19GZWVkcyIgY2xhc3M9InJzcy1idXR0b24iPgo8L2E+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJsZWZ0Ij4KPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9Db3VuY2lsX01lZXRpbmdzL091cl9PcmdhbmlzYXRpb24vQ29udGFjdF9VcyI+Q29udGFjdCBVczwvYT4gfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0NvdW5jaWxfTWVldGluZ3MvQ291bmNpbF9OZXdzL0UtbmV3cyI+CkUtbmV3czwvYT4gfCA8YSBocmVmPSIjIiBpZD0ibGFyZ2VyLXRyaWdnZXIiPkxhcmdlciBUZXh0PC9hPiB8IDxhIGhyZWY9IiMiIGlkPSJzbWFsbGVyLXRyaWdnZXIiPgpTbWFsbGVyIFRleHQ8L2E+CjwvZGl2Pgo8L2Rpdj4KPGRpdiBjbGFzcz0ic2VhcmNoLXdyYXBwZXIiPgo8L2Rpdj4KPC9kaXY+ZAIIDxYCHwFlZAIKD2QWBAIBD2QWAgICD2QWAmYPDxYCHwBoZBYEAgEPFgIfAQUVT3V0c3RhbmRpbmcgYnkgU3VidXJiZAIDDxYCHwEFVDxlbT5UeXBlIHRoZSBmaXJzdCBmZXcgbGV0dGVycyBvZiBhIHN1YnVyYiBuYW1lIGFuZCBzZWxlY3QgZnJvbSB0aGUgbGlzdC48L2VtPjxiciAvPmQCAw9kFgJmD2QWBgIBDxYCHwEFCU5vdGlmeSBNZWQCAw8WAh8BBfsGQnkgZW50ZXJpbmcgeW91ciBlbWFpbCBhZGRyZXNzLCBOb3J0aCBTeWRuZXkgQ291bmNpbCB3aWxsIGF0dGVtcHQgdG8gbm90aWZ5IHlvdSB3aGVuIHRoaXMgYXBwbGljYXRpb24gaXMgZWl0aGVyOgo8b2w+CiAgICA8bGk+VW5kZXIgZGV0ZXJtaW5hdGlvbiBieSBDb3VuY2lsIHN0YWZmPC9saT4KICAgIDxsaT4KICAgIE9uIHRoZSBhZ2VuZGEgZm9yIGEgTW9uZGF5IG5pZ2h0IENvdW5jaWwgTWVldGluZzwvbGk+CiAgICA8bGk+CiAgICBPbiB0aGUgYWdlbmRhIGZvciBkZXRlcm1pbmF0aW9uIGJ5IHRoZSBOb3J0aCBTeWRuZXkgTG9jYWwgUGxhbm5pbmcgUGFuZWwgTWVldGluZyAoTlNMUFApPC9saT4KICAgIDxsaT4KICAgIE9uIHRoZSBhZ2VuZGEgZm9yIGRldGVybWluYXRpb24gYnkgdGhlIFN5ZG5leSBOb3J0aCBQbGFubmluZyBQYW5lbCAoU05QUCk8L2xpPgo8L29sPgpDb3VuY2lscyBOb3RpZnkgTWUgYXV0b21hdGljIGVtYWlsIG5vdGlmaWNhdGlvbiBzZXJ2aWNlIGlzIGFuIGFkZGVkIGNvbnZlbmllbmNlIG9ubHkuIENvdW5jaWwgd2lsbCBlbmRlYXZvdXIgYXMgYWx3YXlzIHRvIHByb3ZpZGUgdGhpcyBzZXJ2aWNlLApob3dldmVyIHNob3VsZCBlbWFpbCBub3RpZmljYXRpb25zIGZhaWwgZHVlIHRvIGEgc3lzdGVtIGZhaWx1cmUsIGN1c3RvbWVycyBhcmUgc3RpbGwgdWx0aW1hdGVseSByZXNwb25zaWJsZSBmb3Igb2J0YWluaW5nIHRoYXQgaW5mb3JtYXRpb24uCllvdSBjYW4gZG8gdGhhdCBieSBjYWxsaW5nIHRoZSBDb3VuY2lsIE1lZXRpbmcgQWdlbmRhIEhvdGxpbmUgb24gOTkzNiA4MTg4IGFmdGVyIDFwbSBvbiB0aGUgRnJpZGF5IGJlZm9yZSB0aGUgZGF0ZSBvZiB0aGUgc2NoZWR1bGVkIE1vbmRheSBuaWdodAptZWV0aW5nLiA8YnIgLz4KPGJyIC8+ZAILDxYCHwEFlAQ8c3R5bGUgdHlwZT0idGV4dC9jc3MiPi5wbmxOb3RpZnlNZSB7CiAgICBwYWRkaW5nLXRvcDogMmVtOwp9CgouTm90aWZ5TWVIZWFkZXIgewogICAgYmFja2dyb3VuZC1jb2xvcjogI2Q5NmI0MDsgCiAgICBwYWRkaW5nOiA1cHg7IAogICAgbWFyZ2luLXJpZ2h0OiA1cHg7IAogICAgZm9udC13ZWlnaHQ6IGJvbGQ7IAogICAgY29sb3I6ICNmZmZmZmY7Cn0KCi5Ob3RpZnlNZVByZWFtYmxlIHsKICAgIHBhZGRpbmc6IDVweDsKfQoKLk5vdGlmeU1lRW1haWxMYWJlbCB7Cn0KCi5Ob3RpZnlNZUVtYWlsIHsKfQoKLk5vdGlmeU1lQnRuIHsKICAgcGFkZGluZy10b3A6IDVweDsgCiAgIHBhZGRpbmctbGVmdDogNDBweDsgCiAgIGJvcmRlcjogbm9uZTsKfQoKLk5vdGlmeU1lUmVzdWx0IHsKfQoKLnNpZGUtYm94IC5Db250cm9sQ29udGVudCBvbCBsaSB7bWFyZ2luLWxlZnQ6IDA7IHBhZGRpbmctbGVmdDogMDt9Cgouc2lkZS1ib3ggLkNvbnRyb2xDb250ZW50IG9sIHtwYWRkaW5nLWxlZnQ6IDE1cHg7IG1hcmdpbi10b3A6IDA7fTwvc3R5bGU+ZAIMD2QWBAIBD2QWAgIBDw8WAh8AZ2QWBmYPZBYGAgEPFgIfAQXVATxoMj5BcHBsaWNhdGlvbiBTZWFyY2g8L2gyPgo8ZW0gc3R5bGU9ImNvbG9yOiBncmF5OyI+U3RhcnQgeW91ciBzZWFyY2ggYnkgdHlwaW5nIHRoZSBmaXJzdCBmZXcgbGV0dGVycyBvZiBhIHN0cmVldCBhZGRyZXNzIG9yIGFwcGxpY2F0aW9uIG51bWJlciBhbmQgc2VsZWN0IGZyb20gdGhlIGxpc3QgYXMgaXQgYXBwZWFycyBvciBjbGljayAnU2VhcmNoJy48L2VtPjxiciAvPmQCAw8PFgQeBVdpZHRoGwAAAAAAMIFAAQAAAB4EXyFTQgKAAmRkAgcPFgIfAQWdAjxlbSBzdHlsZT0iY29sb3I6IGdyYXk7Ij5BcHBsaWNhdGlvbiBudW1iZXJzIG1heSBiZSBmb3VuZCBsaWtlIHRoaXMgICczMjYvMTUnIG9yICdEQSAzMjYvMTUvMicgb3IgJzEwLzIwMTUvMzI2JyZuYnNwOyB3aGlsc3QmbmJzcDs8YnIgLz4KUGxhbm5pbmcgUHJvcG9zYWxzIG1heSBiZSBmb3VuZCBsaWtlIHRoaXMgJ1BQIDYvMTcnIG9yICc5LzIwMTcvNicmbmJzcDsgYW5kIHN0cmVldCBuYW1lcyBtYXkgYmUgZm91bmQgbGlrZSB0aGlzICdXYWxrZXInIG9yICcxNzYgV2Fsa2VyJy48L2VtPjxiciAvPmQCAQ8WAh8BZWQCAg9kFgJmDw8WBB4IQ3NzQ2xhc3NlHwMCAmQWBAIBDw8WAh8AaGQWAgIDDw8WAh8BZWRkAgMPDxYEHwRlHwMCAmQWBAIDD2QWAmYPFgIfAQX3BzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcy9hcGkvanM/c2Vuc29yPXRydWUmbGlicmFyaWVzPWdlb21ldHJ5Ij48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL2pzYXBpIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvY2xpZW50L3NjcmlwdHMvbWFwLy9pY29uLW1hcC5qcyI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vUGFnZXMvWEMuU3BhdGlhbC9KYXZhc2NyaXB0L1NwYXRpYWwuanMiPjwvc2NyaXB0PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2NsaWVudC9zY3JpcHRzL21hcC8vaWNvbi1tYXAuY3NzIiBtZWRpYT0ic2NyZWVuIj48L2xpbms+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vU3BhdGlhbC5jc3MiIG1lZGlhPSJzY3JlZW4iPjwvbGluaz48ZGl2IGlkPSJtYXAiIGNsYXNzPSJlbWJlZGRlZCIgc3R5bGU9IiI+IDwvZGl2Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG1hcDskKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7dmFyIG9wdGlvbnMgPSB7YWNjb3VudDoiIixjb250ZXh0OiIiLHpvb21Ub0JvdW5kczogZmFsc2UsdG9vbGJhcjogdHJ1ZSx0b29sYmFyT3B0aW9uczoge3pvb21JbjogdHJ1ZSx6b29tT3V0OiB0cnVlLHN0cmVldFZpZXc6IHRydWUsbGF5ZXJzOiBmYWxzZSxsZWdlbmQ6IGZhbHNlLGNsZWFyOiBmYWxzZSxzZWFyY2g6IGZhbHNlfSxpZGVudGlmeTogZmFsc2UsbXVsdGlTZWxlY3Q6IGZhbHNlLHpvb21GYWN0b3I6IDE2fTsNCm1hcCA9IG5ldyBtYWNyb2dpcy5tYXBzLkljb25NYXAoIm1hcCIsIG9wdGlvbnMsIGZ1bmN0aW9uKCkgeyBtYXAuem9vbVRvRnVsbEV4dGVudCgpOw0KIA0KfSk7fSk7DQokKCcjJykuaGlkZSgpOw0KPC9zY3JpcHQ+DQpkAgUPFgIfAWVkAgMPZBYCAgEPZBYCZg9kFgQCIw9kFgJmD2QWBAIBD2QWAgIDDw8WAh8BBQNNYXBkZAIDD2QWBAIDD2QWAmYPFgIfAQX3BzxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHA6Ly9tYXBzLmdvb2dsZS5jb20vbWFwcy9hcGkvanM/c2Vuc29yPXRydWUmbGlicmFyaWVzPWdlb21ldHJ5Ij48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGUuY29tL2pzYXBpIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSIvY2xpZW50L3NjcmlwdHMvbWFwLy9pY29uLW1hcC5qcyI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iLi4vLi4vUGFnZXMvWEMuU3BhdGlhbC9KYXZhc2NyaXB0L1NwYXRpYWwuanMiPjwvc2NyaXB0PjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iL2NsaWVudC9zY3JpcHRzL21hcC8vaWNvbi1tYXAuY3NzIiBtZWRpYT0ic2NyZWVuIj48L2xpbms+PGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9BcHBfVGhlbWVzL0ljb24vU3BhdGlhbC5jc3MiIG1lZGlhPSJzY3JlZW4iPjwvbGluaz48ZGl2IGlkPSJtYXAiIGNsYXNzPSJlbWJlZGRlZCIgc3R5bGU9IiI+IDwvZGl2Pg0KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG1hcDskKGRvY3VtZW50KS5yZWFkeShmdW5jdGlvbiAoKSB7dmFyIG9wdGlvbnMgPSB7YWNjb3VudDoiIixjb250ZXh0OiIiLHpvb21Ub0JvdW5kczogZmFsc2UsdG9vbGJhcjogdHJ1ZSx0b29sYmFyT3B0aW9uczoge3pvb21JbjogdHJ1ZSx6b29tT3V0OiB0cnVlLHN0cmVldFZpZXc6IHRydWUsbGF5ZXJzOiBmYWxzZSxsZWdlbmQ6IGZhbHNlLGNsZWFyOiBmYWxzZSxzZWFyY2g6IGZhbHNlfSxpZGVudGlmeTogZmFsc2UsbXVsdGlTZWxlY3Q6IGZhbHNlLHpvb21GYWN0b3I6IDE2fTsNCm1hcCA9IG5ldyBtYWNyb2dpcy5tYXBzLkljb25NYXAoIm1hcCIsIG9wdGlvbnMsIGZ1bmN0aW9uKCkgeyBtYXAuem9vbVRvRnVsbEV4dGVudCgpOw0KIA0KfSk7fSk7DQokKCcjJykuaGlkZSgpOw0KPC9zY3JpcHQ+DQpkAgUPFgIfAWVkAkMPZBYCZg9kFgYCAQ8WAh8BBQlOb3RpZnkgTWVkAgMPFgIfAQX7BkJ5IGVudGVyaW5nIHlvdXIgZW1haWwgYWRkcmVzcywgTm9ydGggU3lkbmV5IENvdW5jaWwgd2lsbCBhdHRlbXB0IHRvIG5vdGlmeSB5b3Ugd2hlbiB0aGlzIGFwcGxpY2F0aW9uIGlzIGVpdGhlcjoKPG9sPgogICAgPGxpPlVuZGVyIGRldGVybWluYXRpb24gYnkgQ291bmNpbCBzdGFmZjwvbGk+CiAgICA8bGk+CiAgICBPbiB0aGUgYWdlbmRhIGZvciBhIE1vbmRheSBuaWdodCBDb3VuY2lsIE1lZXRpbmc8L2xpPgogICAgPGxpPgogICAgT24gdGhlIGFnZW5kYSBmb3IgZGV0ZXJtaW5hdGlvbiBieSB0aGUgTm9ydGggU3lkbmV5IExvY2FsIFBsYW5uaW5nIFBhbmVsIE1lZXRpbmcgKE5TTFBQKTwvbGk+CiAgICA8bGk+CiAgICBPbiB0aGUgYWdlbmRhIGZvciBkZXRlcm1pbmF0aW9uIGJ5IHRoZSBTeWRuZXkgTm9ydGggUGxhbm5pbmcgUGFuZWwgKFNOUFApPC9saT4KPC9vbD4KQ291bmNpbHMgTm90aWZ5IE1lIGF1dG9tYXRpYyBlbWFpbCBub3RpZmljYXRpb24gc2VydmljZSBpcyBhbiBhZGRlZCBjb252ZW5pZW5jZSBvbmx5LiBDb3VuY2lsIHdpbGwgZW5kZWF2b3VyIGFzIGFsd2F5cyB0byBwcm92aWRlIHRoaXMgc2VydmljZSwKaG93ZXZlciBzaG91bGQgZW1haWwgbm90aWZpY2F0aW9ucyBmYWlsIGR1ZSB0byBhIHN5c3RlbSBmYWlsdXJlLCBjdXN0b21lcnMgYXJlIHN0aWxsIHVsdGltYXRlbHkgcmVzcG9uc2libGUgZm9yIG9idGFpbmluZyB0aGF0IGluZm9ybWF0aW9uLgpZb3UgY2FuIGRvIHRoYXQgYnkgY2FsbGluZyB0aGUgQ291bmNpbCBNZWV0aW5nIEFnZW5kYSBIb3RsaW5lIG9uIDk5MzYgODE4OCBhZnRlciAxcG0gb24gdGhlIEZyaWRheSBiZWZvcmUgdGhlIGRhdGUgb2YgdGhlIHNjaGVkdWxlZCBNb25kYXkgbmlnaHQKbWVldGluZy4gPGJyIC8+CjxiciAvPmQCCw8WAh8BBZQEPHN0eWxlIHR5cGU9InRleHQvY3NzIj4ucG5sTm90aWZ5TWUgewogICAgcGFkZGluZy10b3A6IDJlbTsKfQoKLk5vdGlmeU1lSGVhZGVyIHsKICAgIGJhY2tncm91bmQtY29sb3I6ICNkOTZiNDA7IAogICAgcGFkZGluZzogNXB4OyAKICAgIG1hcmdpbi1yaWdodDogNXB4OyAKICAgIGZvbnQtd2VpZ2h0OiBib2xkOyAKICAgIGNvbG9yOiAjZmZmZmZmOwp9CgouTm90aWZ5TWVQcmVhbWJsZSB7CiAgICBwYWRkaW5nOiA1cHg7Cn0KCi5Ob3RpZnlNZUVtYWlsTGFiZWwgewp9CgouTm90aWZ5TWVFbWFpbCB7Cn0KCi5Ob3RpZnlNZUJ0biB7CiAgIHBhZGRpbmctdG9wOiA1cHg7IAogICBwYWRkaW5nLWxlZnQ6IDQwcHg7IAogICBib3JkZXI6IG5vbmU7Cn0KCi5Ob3RpZnlNZVJlc3VsdCB7Cn0KCi5zaWRlLWJveCAuQ29udHJvbENvbnRlbnQgb2wgbGkge21hcmdpbi1sZWZ0OiAwOyBwYWRkaW5nLWxlZnQ6IDA7fQoKLnNpZGUtYm94IC5Db250cm9sQ29udGVudCBvbCB7cGFkZGluZy1sZWZ0OiAxNXB4OyBtYXJnaW4tdG9wOiAwO308L3N0eWxlPmQCDQ8WAh8BBccLCjxkaXYgY2xhc3M9InJpZ2h0IiBzdHlsZT0id2lkdGg6IDEyMHB4OyI+CjxhIGNsYXNzPSJmYWNlYm9vay1saW5rIHJpZ2h0IiB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5mYWNlYm9vay5jb20vTnRoU3lkQ291bmNpbCI+CjwvYT48YSBjbGFzcz0idHdpdHRlci1saW5rIHJpZ2h0IiB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3R3aXR0ZXIuY29tL050aFN5ZENvdW5jaWwiPgo8L2E+PGEgY2xhc3M9Imluc3RhZ3JhbS1saW5rIHJpZ2h0IiB0YXJnZXQ9Il9ibGFuayIgaHJlZj0iaHR0cDovL3d3dy5pbnN0YWdyYW0uY29tL25vcnRoLnN5ZG5leSI+PC9hPgo8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLTEgbGVmdCI+CjxoMz4KTWFpbiBPZmZpY2U8L2gzPgoyMDAgTWlsbGVyIFN0cmVldAo8YnIgLz4KTm9ydGggU3lkbmV5IDIwNjAKPGJyIC8+ClRlbGVwaG9uZTogKDAyKSA5OTM2IDgxMDAKPGJyIC8+CkZheDogKDAyKSA5OTM2IDgxNzc8L2Rpdj4KPGRpdiBjbGFzcz0iY29sLTIgbGVmdCI+CjxoMz4KU3RhbnRvbiBMaWJyYXJ5PC9oMz4KMjM0IE1pbGxlciBTdHJlZXQKPGJyIC8+Ck5vcnRoIFN5ZG5leSAyMDYwCjxiciAvPgpUZWxlcGhvbmU6ICgwMikgOTkzNiA4NDAwCjwvZGl2Pgo8ZGl2IGNsYXNzPSJjb2wtMyBsZWZ0Ij4KPGgzPgpOb3J0aCBTeWRuZXkgT3ZhbDwvaDM+CjUgRmlnIFRyZWUgTGFuZQo8YnIgLz4KTm9ydGggU3lkbmV5IDIwNjAKPGJyIC8+ClRlbGVwaG9uZTogKDAyKSA5OTM2IDg1ODUKPC9kaXY+CjxkaXYgY2xhc3M9ImNvbC00IGxlZnQiPgo8aDM+Ck5vcnRoIFN5ZG5leSBPbHltcGljIFBvb2w8L2gzPgo0IEFsZnJlZCBTdHJlZXQgU291dGgKPGJyIC8+Ck1pbHNvbnMgUG9pbnQgMjA2MQo8YnIgLz4KVGVsZXBob25lOiAoMDIpIDk5NTUgMjMwOQo8L2Rpdj4KPGRpdiBjbGFzcz0iY2xlYXIiPgo8L2Rpdj4KPGRpdiBjbGFzcz0iZm9vdGVyLWxpbmstd3JhcCI+CjxhIGhyZWY9Imh0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvSW5mb3JtYXRpb25fUGFnZXMvUHJpdmFjeSI+UHJpdmFjeTwvYT4KfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL0Rpc2NsYWltZXIiPkRpc2NsYWltZXI8L2E+CnwgPGEgaHJlZj0iaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9JbmZvcm1hdGlvbl9QYWdlcy9Db3B5cmlnaHQiPkNvcHlyaWdodDwvYT4KfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL0EtWl9MaXN0aW5nIj5BLVogTGlzdDwvYT4KfCA8YSBocmVmPSJodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L0luZm9ybWF0aW9uX1BhZ2VzL1NpdGVtYXAiPlNpdGVtYXA8L2E+CjwvZGl2Pgo8ZGl2IGNsYXNzPSJmYWRlZC10ZXh0Ij4KJmNvcHk7IE5vcnRoIFN5ZG5leSBDb3VuY2lsIDIwMTYvMTcKPC9kaXY+ZAIODxYCHwEFiRY8c3R5bGUgdHlwZT0ndGV4dC9jc3MnPkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL3N0eWxlLmNzcycpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9jb21tb24uY3NzJyk7CkBpbXBvcnQgdXJsKCdodHRwczovL3d3dy5ub3J0aHN5ZG5leS5uc3cuZ292LmF1L2ZpbGVzL3RlbXBsYXRlcy8wMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDAvNmIyZWUyNmEtOWQ0MS00MzNkLTk3YmMtODBjMWVjNTBkMmJiL2RhdGEtbGlzdC12aWV3LmNzcycpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9tYWlubWVudS5jc3M/c2VhbWxlc3N0cz02MzY0NTMwMjk4NjA1ODQ5NDknKTsKQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvc2l0ZS5jc3M/dj0xLjEnKTsKQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvZm9ybS10ZW1wbGF0ZS5jc3MnKTsKQGltcG9ydCB1cmwoJ2h0dHBzOi8vd3d3Lm5vcnRoc3lkbmV5Lm5zdy5nb3YuYXUvZmlsZXMvdGVtcGxhdGVzLzAwMDAwMDAwLTAwMDAtMDAwMC0wMDAwLTAwMDAwMDAwMDAwMC82YjJlZTI2YS05ZDQxLTQzM2QtOTdiYy04MGMxZWM1MGQyYmIvd25HYWxsZXJ5LmNzcycpOwpAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9DYWxlbmRhci5jc3MnKTsKLypAaW1wb3J0IHVybCgnaHR0cHM6Ly93d3cubm9ydGhzeWRuZXkubnN3Lmdvdi5hdS9maWxlcy90ZW1wbGF0ZXMvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzZiMmVlMjZhLTlkNDEtNDMzZC05N2JjLTgwYzFlYzUwZDJiYi9qcXVlcnktdWktMS45LjAuY3VzdG9tLmNzcycpOwoKLyogU3RhbmRhcmQgRGVmYXVsdCBNYXN0ZXIgU3R5bGluZyAqLwoKI21haW5saW5lIHtoZWlnaHQ6NDFweCAhaW1wb3J0YW50OyBiYWNrZ3JvdW5kLWNvbG9yOiNGM0YzRjMgIWltcG9ydGFudDt9CiNtYWlubGluZSB7YmFja2dyb3VuZDogbm9uZTtib3JkZXI6bm9uZSAhaW1wb3J0YW50O30KI2JkLmN1c3RvbU1hc3Rlci1Cb2R5IHtib3JkZXItdG9wOm5vbmUgIWltcG9ydGFudDt9CiNtaWQtbWVudS5tZW51IHttYXJnaW4tbGVmdDowO30KCnAubWFpbi1mb290ZXItcGFyYSB7bWFyZ2luLWJvdHRvbTogMXB4OyBwYWRkaW5nLWJvdHRvbTowO30KCiNoZCB7bWluLWhlaWdodDoyMDRweCAhaW1wb3J0YW50O2JhY2tncm91bmQtY29sb3I6dHJhbnNwYXJlbnQgIWltcG9ydGFudDt9CiNuYXZ3cmFwIHtiYWNrZ3JvdW5kOiBub25lO2JvcmRlci10b3A6bm9uZTtoZWlnaHQ6MTVweDt9CgppbWcjdDFsb2dvIHtkaXNwbGF5Om5vbmU7fQoKLmN1c3RvbU1hc3Rlci1IZWFkZXIgPiBkaXYgPiAuY29udGFpbmVyTGVmdCB7IHdpZHRoOjEwMCU7fQojbWFpbmxpbmUuY3VzdG9tTWFzdGVyLUhlYWRlciA+IC5hZG1pbmJhbm5lciB7ZGlzcGxheTpub25lO30KCmJvZHkge2JhY2tncm91bmQtY29sb3I6ICM2NDU3NEYgIWltcG9ydGFudDt9CiNkb2NmIHtib3JkZXItbGVmdDogbm9uZSAhaW1wb3J0YW50OyBib3JkZXItcmlnaHQ6bm9uZSAhaW1wb3J0YW50OyB3aWR0aDoxMDAwcHggIWltcG9ydGFudDt9CgojY3RsMDBfY3RNYWluX21haW4gPiAjY29udGVudCB7d2lkdGg6ODAwcHggIWltcG9ydGFudDttYXJnaW46MCAhaW1wb3J0YW50O30KI2N0bDAwX2N0TWFpbl9jdHJsTG9naW5fcG5sVXNlckxvZ2luID4gZGl2ID4gZGl2IHt3aWR0aDo3NSUgIWltcG9ydGFudDt9CiNjdGwwMF9jdE1haW5fY3RybExvZ2luX3BubFVzZXJMb2dpbiA+IGRpdiA+IGRpdiNjdGwwMF9jdE1haW5fY3RybExvZ2luX2N0cmxTb2NpYWxMb2dpbiB7d2lkdGg6MSUgIWltcG9ydGFudDtkaXNwbGF5Om5vbmUgIWltcG9ydGFudDt9CgovKiBOU0MgQ1VTVE9NSVNBVElPTiAyMC8wOS8yMDE3ICovCmlucHV0LmJ1dHRvbkFkZFt0eXBlPXN1Ym1pdF0ge2JhY2tncm91bmQtY29sb3I6I0NBREI0Njt9CmlucHV0LmJ1dHRvbkFkZFt0eXBlPXN1Ym1pdF06aG92ZXIge2JhY2tncm91bmQtY29sb3I6IzhFQzc0Qzt9CmlucHV0LmJ1dHRvbk1vZGlmeVt0eXBlPXN1Ym1pdF0ge2JhY2tncm91bmQtY29sb3I6I0NBREI0Njt9CmlucHV0LmJ1dHRvbk1vZGlmeVt0eXBlPXN1Ym1pdF06aG92ZXIge2JhY2tncm91bmQtY29sb3I6IzhFQzc0Qzt9CgoKLkxpbmtzU2VjdGlvbiB7CiAgICBtYXJnaW4tbGVmdDogMTBweCAhaW1wb3J0YW50Owp9CiA8L3N0eWxlPmRkyH+5ltblk3b7L0yY/6AwCHANXCU=\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3a8f95decb-d716-4257-bc42-c772df7173e5%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"FD370D2E\" />\r\n<input type=\"hidden\"
+        name=\"__EVENTVALIDATION\" id=\"__EVENTVALIDATION\" value=\"/wEdAAPMiTrhkaRwsWaXKP8kUTQFnexQA0tUWxhXiF1Lx87GyZtWKg6RvYaBd0w/zXbzv0klOMBhcrq/9YIJItLP44dSD9Mnzw==\"
+        />\r\n        \r\n        <script type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            jGrowlPosition =
+        \"top-right\";\r\n        </script>\r\n        \r\n        \r\n        <div
+        id=\"docf\">\r\n            <div id=\"hd\" role=\"banner\">\r\n                <div
+        id=\"navwrap\" role=\"navigation\">\r\n                    \r\n                    <div
+        id=\"menuline\" class=\"customMaster-TopMenu floatLeft\">\r\n                        \r\n
+        \                   </div>\r\n                </div>\r\n                <div
+        id=\"headline\" class=\"customMaster-Header environmentPROD\">\r\n                    <div
+        class=\"header\">\n<div class=\"logo\">\n<a href=\"https://www.northsydney.nsw.gov.au/\">\n<img
+        alt=\"\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/logo.gif\"
+        /></a></div>\n<div class=\"top-link-wrapper\">\n<div class=\"right button-wrap\"><a
+        href=\"https://www.northsydney.nsw.gov.au/Information_Pages/RSS_Feeds\" class=\"rss-button\">\n</a>\n</div>\n<div
+        class=\"left\">\n<a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings/Our_Organisation/Contact_Us\">Contact
+        Us</a> | <a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings/Council_News/E-news\">\nE-news</a>
+        | <a href=\"#\" id=\"larger-trigger\">Larger Text</a> | <a href=\"#\" id=\"smaller-trigger\">\nSmaller
+        Text</a>\n</div>\n</div>\n<div class=\"search-wrapper\">\n</div>\n</div>\r\n
+        \               </div>\r\n                <div class=\"clear adminclear\"></div>\r\n
+        \               <div id=\"mainline\" class=\"customMaster-Header\">\r\n                    <div
+        id=\"midmenuline\" class=\"customMaster-MidMenu floatLeft\">\r\n                        <!--Get
+        parent menu item to display-->\r\n<!--Build HTML of Menu-->\r\n<div id=\"mid-menu\"
+        class=\"menu\">\r\n  <div class=\"mainmenuContainer\">\r\n    <ul class=\"mainMenu\">\r\n
+        \     <li class=\"level1 seq1\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Council_Meetings\"
+        title=\"Council &amp; Meetings\" class=\"level1 seq1\" target=\"\">Council
+        &amp; Meetings</a>\r\n      </li>\r\n      <li class=\"level1 seq2\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Community_Services\"
+        title=\"Community &amp; Services\" class=\"level1 seq2\" target=\"\">Community
+        &amp; Services</a>\r\n      </li>\r\n      <li class=\"level1 seq3\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Building_Development\"
+        title=\"Building &amp; Development\" class=\"level1 seq3\" target=\"\">Building
+        &amp; Development</a>\r\n      </li>\r\n      <li class=\"level1 seq4\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Waste_Environment\" title=\"Waste
+        &amp; Environment\" class=\"level1 seq4\" target=\"\">Waste &amp; Environment</a>\r\n
+        \     </li>\r\n      <li class=\"level1 seq5\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Recreation_Facilities\"
+        title=\"Recreation &amp; Facilities\" class=\"level1 seq5\" target=\"\">Recreation
+        &amp; Facilities</a>\r\n      </li>\r\n      <li class=\"level1 seq6\">\r\n
+        \       <a href=\"https://www.northsydney.nsw.gov.au/Library_Databases\" title=\"Library
+        &amp; Databases\" class=\"level1 seq6\" target=\"\">Library &amp; Databases</a>\r\n
+        \     </li>\r\n      <li class=\"level1 seq7\">\r\n        <a href=\"https://www.northsydney.nsw.gov.au/Transport_Parking\"
+        title=\"Transport &amp; Parking\" class=\"level1 seq7\" target=\"\">Transport
+        &amp; Parking</a>\r\n      </li>\r\n      <li class=\"level1 seq8\">\r\n        <a
+        href=\"https://www.northsydney.nsw.gov.au/Business_Projects\" title=\"Business
+        &amp; Projects\" class=\"level1 seq8\" target=\"\">Business &amp; Projects</a>\r\n
+        \     </li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n<div class=\"breadcrumb\">\r\n
+        \ <span class=\"share-widgets\">\r\n    <a href=\"#\" class=\"share addthis_button_compact\">
+        </a>\r\n    <a href=\"javascript: window.print()\" title=\"Print preview this
+        page\" class=\"print\"> </a>\r\n  </span>\r\n  <span class=\"breadcrumbs\">\r\n
+        \   <a href=\"https://www.northsydney.nsw.gov.au/Home\" style=\"text-decoration:none;\">\r\n
+        \     <img class=\"breadcrumb-home\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-home.gif\"
+        />\r\n    </a>\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Home\">Home</a>\r\n
+        \   <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Building_Development\">Building
+        &amp; Development</a>\r\n    <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n    <a href=\"https://www.northsydney.nsw.gov.au/Building_Development/Current_DAs\">Current
+        DAs</a>\r\n    <img class=\"breadcrumb-separator\" src=\"https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/breadcrumbs-arrow.gif\"
+        />\r\n            Application Tracking\r\n        </span>\r\n</div>\r\n                    </div>\r\n
+        \                   <div class=\"containerLeft adminbanner splitterLeftMaster
+        noOverflow\">\r\n                        \r\n                        <div
+        style=\"margin-top: 5px; padding: 3px; padding-left: 12px;\" id=\"adminpage\">\r\n
+        \                           \r\n                        </div>\r\n                    </div>\r\n
+        \                   <div class=\"containerRight adminbanner splitterRightMaster
+        noOverflow\">\r\n                        \r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"clear\"></div>\r\n
+        \           </div>\r\n            <div class=\"clear\"></div>\r\n            <div
+        id=\"bd\" class=\"customMaster-Body\" role=\"main\">\r\n                <div
+        id=\"main\">\r\n                    <div class=\"containerLeft customMaster-Body\">\r\n
+        \                       <div class=\"containerInner\">\r\n                            <div
+        class=\"padded\">\r\n                                \r\n\t<div class=\"col-small
+        left\">\r\n        <div style=\"padding: 20px\" class=\"clearfix\">\r\n            <div
+        class=\"side-box\">\r\n                <h2 class='box-header'>\r\n                    In
+        This Section</h2>\r\n                <!-- MENU HERE -->\r\n        \t\t<ul
+        class=\"layout-list side-menu\">\r\n  <li id=\"m10029\" class=\"level-1 current-path
+        current-page\" onclick=\"nscToggleMenu('10029');\">\r\n    <a href=\"#\" class=\"
+        \" target=\"\">Application</a>\r\n  </li>\r\n  <li class=\"level-2 no-child
+        i10029 ii10030\" style=\"display:block;\">\r\n    <a href=\"http://www.northsydney.nsw.gov.au/\"
+        class=\" \" target=\"\">Home</a>\r\n  </li>\r\n  <li class=\"level-2 no-child
+        i10029 ii10031\" style=\"display:block;\">\r\n    <a href=\"../../Common/Common/Disclaimer.aspx\"
+        class=\" \" target=\"\">Disclaimer</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10029 ii10032\" style=\"display:block;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx\"
+        class=\" \" target=\"\">Search</a>\r\n  </li>\r\n  <li class=\"level-2 no-child
+        i10029 ii10033\" style=\"display:block;\">\r\n    <a href=\"../../Pages/XC.Track/Help.aspx?helpid=DA_EventCodes\"
+        class=\" \" target=\"\">DA Events</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10029 ii10034\" style=\"display:block;\">\r\n    <a href=\"../../Pages/XC.Track/Help.aspx?helpid=DA_Help\"
+        class=\" \" target=\"\">Help</a>\r\n  </li>\r\n  <li class=\"level-2 no-child
+        i10029 ii10035\" style=\"display:block;\">\r\n    <a href=\"../../Pages/XC.Track/Help.aspx?helpid=DA_Access\"
+        class=\" \" target=\"\">Access to Information</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10029 ii10036\" style=\"display:block;\">\r\n    <a href=\"http://www.northsydney.nsw.gov.au/Council_Meetings\"
+        class=\" \" target=\"\">Council Agendas &amp; Minutes</a>\r\n  </li>\r\n  <li
+        id=\"m10037\" class=\"level-1 \" onclick=\"nscToggleMenu('10037');\">\r\n
+        \   <a href=\"#\" class=\" \" target=\"\">DAs Submitted</a>\r\n  </li>\r\n
+        \ <li class=\"level-2 no-child i10037 ii10038\" style=\"display:none;\">\r\n
+        \   <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=LodgementDate&amp;\"
+        class=\" \" target=\"\">This Week</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10037 ii10039\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=LodgementDate&amp;\"
+        class=\" \" target=\"\">Last Week</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10037 ii10040\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thismonth&amp;k=LodgementDate&amp;\"
+        class=\" \" target=\"\">This Month</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10037 ii10041\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastmonth&amp;k=LodgementDate&amp;\"
+        class=\" \" target=\"\">Last Month</a>\r\n  </li>\r\n  <li id=\"m10042\" class=\"level-1
+        \" onclick=\"nscToggleMenu('10042');\">\r\n    <a href=\"#\" class=\" \" target=\"\">DAs
+        Determined</a>\r\n  </li>\r\n  <li class=\"level-2 no-child i10042 ii10043\"
+        style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thisweek&amp;k=DeterminationDate&amp;\"
+        class=\" \" target=\"\">This Week</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10042 ii10044\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastweek&amp;k=DeterminationDate&amp;\"
+        class=\" \" target=\"\">Last Week</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10042 ii10045\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thismonth&amp;k=DeterminationDate&amp;\"
+        class=\" \" target=\"\">This Month</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10042 ii10046\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=lastmonth&amp;k=DeterminationDate&amp;\"
+        class=\" \" target=\"\">Last Month</a>\r\n  </li>\r\n  <li id=\"m10047\" class=\"level-1
+        \" onclick=\"nscToggleMenu('10047');\">\r\n    <a href=\"#\" class=\" \" target=\"\">Planning
+        Proposals</a>\r\n  </li>\r\n  <li class=\"level-2 no-child i10047 ii10048\"
+        style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?d=thiscalendaryear&amp;k=LodgementDate&amp;t=9&amp;\"
+        class=\" \" target=\"\">Submitted This Year</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10047 ii10135\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?ds=01-01-2018&amp;de=31-12-2018&amp;k=LodgementDate&amp;t=9&amp;\"
+        class=\" \" target=\"\">Submitted In 2018</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10047 ii10129\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?ds=01-01-2017&amp;de=31-12-2017&amp;k=LodgementDate&amp;t=9&amp;\"
+        class=\" \" target=\"\">Submitted In 2017</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10047 ii10049\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?ds=01-01-2016&amp;de=31-12-2016&amp;k=LodgementDate&amp;t=9&amp;\"
+        class=\" \" target=\"\">Submitted In 2016</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10047 ii10050\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Track/SearchApplication.aspx?ds=01-01-2015&amp;de=31-12-2015&amp;k=LodgementDate&amp;t=9&amp;\"
+        class=\" \" target=\"\">Submitted In 2015</a>\r\n  </li>\r\n  <li id=\"m10051\"
+        class=\"level-1 \" onclick=\"nscToggleMenu('10051');\">\r\n    <a href=\"#\"
+        class=\" \" target=\"\">Mapped DAs</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10052\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate\"
+        class=\" \" target=\"\">Submitted in Last 14 Days</a>\r\n  </li>\r\n  <li
+        class=\"level-2 no-child i10051 ii10053\" style=\"display:none;\">\r\n    <a
+        href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=DeterminationDate\" class=\"
+        \" target=\"\">Determined in Last 14 Days</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10054\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Cammeray\"
+        class=\" \" target=\"\">DAs in Cammeray</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10055\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Cremorne\"
+        class=\" \" target=\"\">DAs in Cremorne</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10056\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Cremorne%20Point\"
+        class=\" \" target=\"\">DAs in Cremorne Point</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10057\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Crows%20Nest\"
+        class=\" \" target=\"\">DAs in Crows Nest</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10058\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Kirribilli\"
+        class=\" \" target=\"\">DAs in Kirribilli</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10059\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Kurraba%20Point\"
+        class=\" \" target=\"\">DAs in Kurraba Point</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10060\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Lavender%20Bay\"
+        class=\" \" target=\"\">DAs in Lavender Bay</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10061\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Mcmahons%20Point\"
+        class=\" \" target=\"\">DAs in Mcmahons Point</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10062\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Milsons%20Point\"
+        class=\" \" target=\"\">DAs in Milsons Point</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10063\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Neutral%20Bay\"
+        class=\" \" target=\"\">DAs in Neutral Bay</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10064\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=North%20Sydney\"
+        class=\" \" target=\"\">DAs in North Sydney</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10065\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=St%20Leonards\"
+        class=\" \" target=\"\">DAs in St Leonards</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10066\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Waverton\"
+        class=\" \" target=\"\">DAs in Waverton</a>\r\n  </li>\r\n  <li class=\"level-2
+        no-child i10051 ii10067\" style=\"display:none;\">\r\n    <a href=\"../../Pages/XC.Spatial/MapApplication.aspx?k=LodgementDate&amp;suburb=Wollstonecraft\"
+        class=\" \" target=\"\">DAs in Wollstonecraft</a>\r\n  </li>\r\n  <script
+        type=\"text/javascript\">\r\n        \t\t\tfunction nscToggleMenu(id) {\r\n
+        \       \t\t\t\t$('.level-2').hide();\r\n        \t\t\t\t$('.i' + id).slideDown('slow');\r\n
+        \       \t\t\t\t$('.level-1').removeClass('current-path').removeClass('current-page');\r\n
+        \       \t\t\t\t$('#m' + id).addClass('current-path').addClass('current-page');\r\n
+        \       \t\t\t}\r\n        \t\t\t </script>\r\n</ul> \r\n<style type=\"text/css\">ul.layout-list
+        li {margin-left: 0 !important}</style>\r\n\r\n\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function () {\r\n        $(\".suburbs\").autocomplete({\r\n
+        \           delay: 50,\r\n            minLength: 1,\r\n            source:
+        function (request, response) {\r\n                $.ajax({\r\n                    type:
+        'POST',\r\n                    url: '../../Common/Services/AutoComplete.aspx/GetAutoCompletePairList',\r\n
+        \                   data: '{\"sql\":\"' + '~/Pages/XC.Spatial.Applications/Sql/Suburbs.sql'
+        + '\",\"conn\":\"' + 'Authority' + '\",\"term\":\"' + request.term + '\"}',\r\n
+        \                   contentType: \"application/json; charset=utf-8\",\r\n
+        \                   dataType: \"json\",\r\n                    success: function
+        (data) {\r\n                        data = data.d;\r\n                        response(data);\r\n
+        \                   }\r\n                });\r\n            },\r\n            select:
+        function (event, ui) {\r\n                $('.suburbs').val(ui.item.label);\r\n
+        \               switch (ui.item.value.substr(0, 3)) {\r\n                    case
+        'sub': window.location = '../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o='
+        + ui.item.value.substr(4) + '&a=' + ui.item.label; break;\r\n                    default:
+        window.location = '../../Pages/XC.Spatial.Applications/OutstandingApplications.aspx?o=#';\r\n
+        \               }\r\n                return false;\r\n            },\r\n            focus:
+        function (event, ui) {\r\n                $('.application').val(ui.item.label);\r\n
+        \               return false;\r\n            }\r\n\t    });\r\n    });\r\n</script>\r\n\r\n\r\n\r\n\r\n
+        \               <br />\r\n            </div>\r\n        </div>\r\n\t    <div
+        class=\"padded\">\r\n\t\t\t\r\n\t    </div>\r\n    </div>\r\n\r\n                            </div>\r\n
+        \                       </div>\r\n                    </div>\r\n                    <div
+        class=\"containerRight customMaster-Body\">\r\n                        \r\n
+        \                       <div class=\"containerInner\">\r\n                            <div
+        class=\"padded\">\r\n                                \r\n    <div class=\"padded\">\r\n
+        \       <div id=\"ctl00_ctMain_pnlMain\">\r\n\t\r\n            \r\n<script
+        type=\"text/javascript\">\r\n    $(document).ready(function(){\r\n        $(\".application\").autocomplete({\r\n
+        \           delay:5,\r\n            minLength:4,\r\n\t\t    source: function(request,
+        response){\r\n                $.ajax({\r\n                    type:'POST',\r\n
+        \                   url:'../../Common/Services/AutoComplete.aspx/GetAutoCompletePairList',\r\n
+        \                   data: '{\"sql\":\"~/Pages/XC.Track/Sql/ApplicationSearchXService.sql\",\"conn\":\"'
+        + 'Authority' + '\",\"term\":\"' + request.term + '\"}',\r\n                    contentType:
+        \"application/json; charset=utf-8\",\r\n                    dataType: \"json\",\r\n\t\t
+        \   async: true,\r\n                    success: function (data) {\r\n                        data
+        = data.d;\r\n                        response(data);\r\n                    }\r\n
+        \               });},\r\n            select: function (event, ui){\r\n                //$('#loading').show();\r\n
+        \               $('.application').val(ui.item.label);\r\n                switch
+        (ui.item.value.substr(0,3)) {\r\n                    case 'aid': window.location
+        = 'SearchApplication.aspx?id=' + ui.item.value.substr(4); break;\r\n                    case
+        'pid': window.location = 'SearchApplication.aspx?pid=' + ui.item.value.substr(4)
+        + '&a=' + ui.item.label; break;\r\n                    default:window.location
+        = 'SearchApplication.aspx';\r\n                }\r\n                return
+        false;\r\n            },\r\n            focus: function (event, ui) {\r\n
+        \               $('.application').val(ui.item.label);\r\n                return
+        false;\r\n            }\r\n\t    });\r\n    });\r\n</script>\r\n\r\n<div id=\"ctl00_ctMain_search_pnlSearch\"
+        class=\"MainPanel\">\r\n\t\t\r\n    <h2>Application Search</h2>\n<em style=\"color:
+        gray;\">Start your search by typing the first few letters of a street address
+        or application number and select from the list as it appears or click 'Search'.</em><br
+        />\r\n    <input name=\"ctl00$ctMain$search$txtSearch\" type=\"text\" id=\"ctl00_ctMain_search_txtSearch\"
+        class=\"application\" />\r\n    <input type=\"submit\" name=\"ctl00$ctMain$search$btnSearch\"
+        value=\"Search\" id=\"ctl00_ctMain_search_btnSearch\" class=\"buttonText buttonModify\"
+        />\r\n    <img id=\"loading\" src=\"../../Common/Common/Image.aspx?rid=loading03.gif\"
+        alt=\"loading\" style=\"display:none;\" />\r\n    <br />\r\n    <em style=\"color:
+        gray;\">Application numbers may be found like this  '326/15' or 'DA 326/15/2'
+        or '10/2015/326'&nbsp; whilst&nbsp;<br />\nPlanning Proposals may be found
+        like this 'PP 6/17' or '9/2017/6'&nbsp; and street names may be found like
+        this 'Walker' or '176 Walker'.</em><br />\r\n\r\n\t</div>\r\n\r\n<div>\r\n
+        \   <br /><br /><br />\r\n    \r\n</div>\r\n\r\n\r\n\r\n        \r\n</div>\r\n
+        \       <div id=\"ctl00_ctMain_d1\" class=\"shift\">\r\n            \r\n        </div>\r\n
+        \   </div>    \r\n\r\n                            </div>\r\n                        </div>\r\n
+        \                   </div>\r\n                </div>\r\n            </div>\r\n
+        \           <div class=\"footer\">\r\n                \n<div class=\"right\"
+        style=\"width: 120px;\">\n<a class=\"facebook-link right\" target=\"_blank\"
+        href=\"http://www.facebook.com/NthSydCouncil\">\n</a><a class=\"twitter-link
+        right\" target=\"_blank\" href=\"http://twitter.com/NthSydCouncil\">\n</a><a
+        class=\"instagram-link right\" target=\"_blank\" href=\"http://www.instagram.com/north.sydney\"></a>\n</div>\n<div
+        class=\"col-1 left\">\n<h3>\nMain Office</h3>\n200 Miller Street\n<br />\nNorth
+        Sydney 2060\n<br />\nTelephone: (02) 9936 8100\n<br />\nFax: (02) 9936 8177</div>\n<div
+        class=\"col-2 left\">\n<h3>\nStanton Library</h3>\n234 Miller Street\n<br
+        />\nNorth Sydney 2060\n<br />\nTelephone: (02) 9936 8400\n</div>\n<div class=\"col-3
+        left\">\n<h3>\nNorth Sydney Oval</h3>\n5 Fig Tree Lane\n<br />\nNorth Sydney
+        2060\n<br />\nTelephone: (02) 9936 8585\n</div>\n<div class=\"col-4 left\">\n<h3>\nNorth
+        Sydney Olympic Pool</h3>\n4 Alfred Street South\n<br />\nMilsons Point 2061\n<br
+        />\nTelephone: (02) 9955 2309\n</div>\n<div class=\"clear\">\n</div>\n<div
+        class=\"footer-link-wrap\">\n<a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Privacy\">Privacy</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Disclaimer\">Disclaimer</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Copyright\">Copyright</a>\n|
+        <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/A-Z_Listing\">A-Z
+        List</a>\n| <a href=\"https://www.northsydney.nsw.gov.au/Information_Pages/Sitemap\">Sitemap</a>\n</div>\n<div
+        class=\"faded-text\">\n&copy; North Sydney Council 2016/17\n</div>\r\n            </div>\r\n
+        \       </div>\r\n        <style type='text/css'>@import url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/style.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/common.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/data-list-view.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/mainmenu.css?seamlessts=636453029860584949');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/site.css?v=1.1');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/form-template.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/wnGallery.css');\n@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/Calendar.css');\n/*@import
+        url('https://www.northsydney.nsw.gov.au/files/templates/00000000-0000-0000-0000-000000000000/6b2ee26a-9d41-433d-97bc-80c1ec50d2bb/jquery-ui-1.9.0.custom.css');\n\n/*
+        Standard Default Master Styling */\n\n#mainline {height:41px !important; background-color:#F3F3F3
+        !important;}\n#mainline {background: none;border:none !important;}\n#bd.customMaster-Body
+        {border-top:none !important;}\n#mid-menu.menu {margin-left:0;}\n\np.main-footer-para
+        {margin-bottom: 1px; padding-bottom:0;}\n\n#hd {min-height:204px !important;background-color:transparent
+        !important;}\n#navwrap {background: none;border-top:none;height:15px;}\n\nimg#t1logo
+        {display:none;}\n\n.customMaster-Header > div > .containerLeft { width:100%;}\n#mainline.customMaster-Header
+        > .adminbanner {display:none;}\n\nbody {background-color: #64574F !important;}\n#docf
+        {border-left: none !important; border-right:none !important; width:1000px
+        !important;}\n\n#ctl00_ctMain_main > #content {width:800px !important;margin:0
+        !important;}\n#ctl00_ctMain_ctrlLogin_pnlUserLogin > div > div {width:75%
+        !important;}\n#ctl00_ctMain_ctrlLogin_pnlUserLogin > div > div#ctl00_ctMain_ctrlLogin_ctrlSocialLogin
+        {width:1% !important;display:none !important;}\n\n/* NSC CUSTOMISATION 20/09/2017
+        */\ninput.buttonAdd[type=submit] {background-color:#CADB46;}\ninput.buttonAdd[type=submit]:hover
+        {background-color:#8EC74C;}\ninput.buttonModify[type=submit] {background-color:#CADB46;}\ninput.buttonModify[type=submit]:hover
+        {background-color:#8EC74C;}\n\n\n.LinksSection {\n    margin-left: 10px !important;\n}\n
+        </style>\r\n        \r\n        <script type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
+        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>\r\n
+        \       <script type=\"text/javascript\">\r\n            //$(document).ready(function
+        () {\r\n            //    document.title = document.title + ' - TechnologyOne';\r\n
+        \           //});\r\n        </script>\r\n    </form>\r\n</body>\r\n</html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://apptracking.northsydney.nsw.gov.au/Pages/XC.Track/SearchApplication.aspx?d=last14days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.4.2p198 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=5mqiwyu12lvafy2lhv40fvoc
+      Host:
+      - apptracking.northsydney.nsw.gov.au
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
       code: 200
       message: OK
     headers:
@@ -32,12 +728,10 @@ http_interactions:
       - private
       Content-Type:
       - application/xml; charset=utf-8
-      Set-Cookie:
-      - ASP.NET_SessionId=db1poc1iuclspbpnigfyiyqf; path=/; HttpOnly
       X-Frame-Options:
       - SAMEORIGIN
       Date:
-      - Sun, 09 Jun 2019 16:32:02 GMT
+      - Sun, 09 Jun 2019 16:32:30 GMT
       Content-Length:
       - '230404'
     body:
